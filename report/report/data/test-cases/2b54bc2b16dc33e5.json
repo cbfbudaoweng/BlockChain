@@ -1,0 +1,134 @@
+{
+  "uid" : "2b54bc2b16dc33e5",
+  "name" : "test_data_save_right[SJSL_002-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"75434c80cc54fbb2a6a83130b152e649b4f63dc6a12ae7996ed1aa91871d275f\"\n    },\n    \"timestamp\": 1626763865025,\n    \"success\": true\n}]",
+  "fullName" : "testcase.test_openApi.TestOpenAPI#test_data_save_right",
+  "historyId" : "368dc1b1e50b4a0ddbbb70777cef94f5",
+  "time" : {
+    "start" : 1627020573682,
+    "stop" : 1627020573642,
+    "duration" : -40
+  },
+  "status" : "failed",
+  "statusMessage" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:56: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:57: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:58: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+  "statusTrace" : "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               3 Failed Assumptions:\nE               \nE               test_openApi.py:56: AssumptionFailure\nE               >>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nE               AssertionError: assert False\nE               \nE               test_openApi.py:57: AssumptionFailure\nE               >>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nE               AssertionError: assert False\nE               \nE               test_openApi.py:58: AssumptionFailure\nE               >>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nE               AssertionError: assert False\n\n..\\venv\\lib\\site-packages\\six.py:718: FailedAssumption",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestOpenAPI",
+    "time" : {
+      "start" : 1627020573643,
+      "stop" : 1627020573681,
+      "duration" : 38
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_TestOpenAPI",
+    "time" : {
+      "start" : 1627020572791,
+      "stop" : 1627020572791,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestOpenAPI::0",
+    "time" : {
+      "start" : 1627020574117,
+      "stop" : 1627020574117,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_class_fixture_TestOpenAPI::0",
+    "time" : {
+      "start" : 1627020654197,
+      "stop" : 1627020654197,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "数据上链-正常流"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_openApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOpenAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5UFTAI3"
+  }, {
+    "name" : "thread",
+    "value" : "14072-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_openApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseNum",
+    "value" : "'SJSL_002'"
+  }, {
+    "name" : "expData",
+    "value" : "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"75434c80cc54fbb2a6a83130b152e649b4f63dc6a12ae7996ed1aa91871d275f\"\n    },\n    \"timestamp\": 1626763865025,\n    \"success\": true\n}'"
+  }, {
+    "name" : "inData",
+    "value" : "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2b54bc2b16dc33e5.json",
+  "parameterValues" : [ "'SJSL_002'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"75434c80cc54fbb2a6a83130b152e649b4f63dc6a12ae7996ed1aa91871d275f\"\n    },\n    \"timestamp\": 1626763865025,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+}

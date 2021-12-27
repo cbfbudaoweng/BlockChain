@@ -1,0 +1,2249 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jul 23 14:09:56 CST 2021","Fri Jul 23 14:09:56 CST 2021","443","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_040-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"":""""
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""clusterId"": [
+            ""网络ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626773809982,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:09 CST 2021","Fri Jul 23 14:10:10 CST 2021","537","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_020-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""7ede925fb2b5fb1a075f6a208504c51449873254b2812cfdbd75c2090569d348"",
+    ""legerId"":100000,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626769771799,
+    ""success"": false
+}]",""
+"failed","Fri Jul 23 14:10:24 CST 2021","Fri Jul 23 14:10:24 CST 2021","-17","testcase","test_openApi","TestOpenAPI","","","test_data_check_right[SJHY_002-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": false
+    },
+    ""timestamp"": 1626763959663,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:09:49 CST 2021","Fri Jul 23 14:09:49 CST 2021","439","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_025-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""73e01cd94017563ea4d334fe665e6910d628d359f65c44286bd97a6e79463595"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"":100000
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626771189971,
+    ""success"": false
+}]",""
+"failed","Fri Jul 23 14:09:33 CST 2021","Fri Jul 23 14:09:33 CST 2021","-40","testcase","test_openApi","TestOpenAPI","","","test_data_save_right[SJSL_002-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": ""75434c80cc54fbb2a6a83130b152e649b4f63dc6a12ae7996ed1aa91871d275f""
+    },
+    ""timestamp"": 1626763865025,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:10:32 CST 2021","Fri Jul 23 14:10:33 CST 2021","632","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_013-{ ""data"":{""idcardno"":""110105200101024845"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""7b9ff2e32779963985d5e6d057a5e1b0c196f83ab63649e49dff41e87bad2635"",
+    ""legerId"": 52,
+    ""chainId"":56,
+    ""appId"": ""nd2GFm"",
+    ""clusterId"": 61
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626767981419,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:55 CST 2021","Fri Jul 23 14:09:56 CST 2021","461","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_039-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""appId"": [
+            ""应用ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626773707965,
+    ""success"": false
+}]",""
+"failed","Fri Jul 23 14:09:58 CST 2021","Fri Jul 23 14:09:58 CST 2021","-36","testcase","test_openApi","TestOpenAPI","","","test_data_query_right[SJCX_003-{ ""data"":{""idcardno"":""110105200001024952"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""af232a3176be2c0ba1f2efb226d4bd481dfe2a1b4a37df80a49785eec95ab833"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": {}
+    },
+    ""timestamp"": 1626764091270,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:09:53 CST 2021","Fri Jul 23 14:09:53 CST 2021","448","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_033-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""sign"": [
+            ""数据签名不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626773164870,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:49 CST 2021","Fri Jul 23 14:10:50 CST 2021","706","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_037-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414"",
+    ""legerId"":48,
+    ""chainId"":"""",
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""chainId"": [
+            ""子链ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626773541580,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:48 CST 2021","Fri Jul 23 14:09:48 CST 2021","430","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_023-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d5fc836526c9b2a3e2e7aad5f4eead8e0ca021382200f9329b5e7752df5fb2ec"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0g"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626770817768,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:54 CST 2021","Fri Jul 23 14:09:54 CST 2021","451","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_036-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414"",
+    ""legerId"":48,
+    ""chainId"":"""",
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""chainId"": [
+            ""子链ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626773507628,
+    ""success"": false
+}]",""
+"failed","Fri Jul 23 14:10:24 CST 2021","Fri Jul 23 14:10:24 CST 2021","-28","testcase","test_openApi","TestOpenAPI","","","test_data_check_right[SJHY_003-{ ""data"":{""idcardno"":""110105200001024952"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""af232a3176be2c0ba1f2efb226d4bd481dfe2a1b4a37df80a49785eec95ab833"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 0,
+    ""msg"": ""数据未上链"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626764113794,
+    ""success"": false
+}]",""
+"failed","Fri Jul 23 14:10:26 CST 2021","Fri Jul 23 14:10:26 CST 2021","-22","testcase","test_openApi","TestOpenAPI","","","test_data_check_right[SJHY_005-{ ""data"":{""ybcode"":""zhangsan001"",""sex"":""男"",""name"":""张三""},
+    ""nonce"": ""two3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""4fd2fe34a2670aee7167b3e74a365cdb70310f60caf85ebbbb294e838885f4ce"",
+    ""legerId"": 49,
+    ""chainId"":52,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 61
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": true
+    },
+    ""timestamp"": 1626765518092,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:09:44 CST 2021","Fri Jul 23 14:09:44 CST 2021","486","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_014-{ ""data"":{""idcardno"":""110105200101029566"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one387"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""eb0c164981ac3a1026e13eb275db0f3976f046604759eaea9110294b8e04dd1b"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""nonce"": [
+            ""length must be between 7 and 7""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626768593799,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:43 CST 2021","Fri Jul 23 14:09:44 CST 2021","412","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_013-{ ""data"":{""idcardno"":""110105200101024845"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""7b9ff2e32779963985d5e6d057a5e1b0c196f83ab63649e49dff41e87bad2635"",
+    ""legerId"":52,
+    ""chainId"":56,
+    ""appId"": ""nd2GFm"",
+    ""clusterId"": 61
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626767953035,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:42 CST 2021","Fri Jul 23 14:10:43 CST 2021","670","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_027-{ ""data"":null,
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""data"": [
+            ""data不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626772405868,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:32 CST 2021","Fri Jul 23 14:10:32 CST 2021","651","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_012-{ ""data"":{""idcardno"":""110105200101023201"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""two3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""b137353b17236cdcbb1dc642415bba3d6d951a2997067e1fa662c2de1b8321a8"",
+    ""legerId"": 52,
+    ""chainId"":55,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 61
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626767627790,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:51 CST 2021","Fri Jul 23 14:09:52 CST 2021","431","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_030-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": null,
+    ""sign"": ""0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""timestamp"": [
+            ""发送时间戳不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626772816112,
+    ""success"": false
+}]",""
+"failed","Fri Jul 23 14:09:32 CST 2021","Fri Jul 23 14:09:32 CST 2021","-19","testcase","test_openApi","TestOpenAPI","","","test_data_save_right[SJSL_001-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": ""a8dd2432b26c3d30a9254b97d60dd8199f15650bb282a108e179865165ea5a5e""
+    },
+    ""timestamp"": 1626763727326,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:10:40 CST 2021","Fri Jul 23 14:10:41 CST 2021","676","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_024-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d5fc836526c9b2a3e2e7aad5f4eead8e0ca021382200f9329b5e7752df5fb2ec"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0g"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626770859932,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:44 CST 2021","Fri Jul 23 14:10:44 CST 2021","695","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_029-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": """",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""nonce"": [
+            ""length must be between 7 and 7"",
+            ""7位随机数不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626772656878,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:48 CST 2021","Fri Jul 23 14:09:49 CST 2021","419","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_024-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""be683b406cfc417847597511d522f6bd8d8cae1e0b54d25132016df6f56605d3"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 61
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626771117393,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:34 CST 2021","Fri Jul 23 14:10:34 CST 2021","625","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_015-{ ""data"":{""idcardno"":""110105200101029566"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one387"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d2506fdc33dc2a73f8b35d6c0b9ebdf769144bcb697fc71c82db7b920cbc4f1e"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""nonce"": [
+            ""length must be between 7 and 7""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626768700801,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:43 CST 2021","Fri Jul 23 14:10:43 CST 2021","651","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_028-{
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""data"": [
+            ""data不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626772494290,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:41 CST 2021","Fri Jul 23 14:09:42 CST 2021","568","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_009-{ ""data"":{""idcardno"":""110105200101023500"",""sex"":""女"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""7c3a6b0a001171b38b0be082147c680457d3fb6b39a9c50e019417da819c86e8"",
+    ""legerId"": 50,
+    ""chainId"":51,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 62
+}-{
+    ""code"": 500,
+    ""msg"": ""合约执行失败"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626766384467,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:44 CST 2021","Fri Jul 23 14:09:45 CST 2021","392","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_015-{ ""data"":{""idcardno"":""110105200101029566"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874m"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""0dc10719475382eba093ac3a8dfcb95202f3c3691a0753c099491e10ec4f1e86"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""nonce"": [
+            ""length must be between 7 and 7""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626768896663,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:13 CST 2021","Fri Jul 23 14:10:13 CST 2021","562","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_026-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""73e01cd94017563ea4d334fe665e6910d628d359f65c44286bd97a6e79463595"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"":100000
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626771210217,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:20 CST 2021","Fri Jul 23 14:10:21 CST 2021","588","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_039-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": """",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""appId"": [
+            ""应用ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626773674690,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:03 CST 2021","Fri Jul 23 14:10:04 CST 2021","731","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_010-{ ""data"":{""idcardno"":""110105200101023500"",""sex"":""女"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""7c3a6b0a001171b38b0be082147c680457d3fb6b39a9c50e019417da819c86e8"",
+    ""legerId"": 50,
+    ""chainId"":51,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 62
+}-{
+    ""code"": 500,
+    ""msg"": ""合约执行失败"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626766374013,
+    ""success"": false
+}]",""
+"failed","Fri Jul 23 14:10:01 CST 2021","Fri Jul 23 14:10:01 CST 2021","-33","testcase","test_openApi","TestOpenAPI","","","test_data_query_right[SJCX_007-{ ""data"":{""idcardno"":""110105200101023500"",""sex"":""女"",""birthday"":""2000-01-02"",""name"":""不理不理""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""7acae9464c29f290fd0929dd47c5aaf159280eb36582deedc79d9cebda5cbf78"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": {
+            ""appId"": ""rRHm0G"",
+            ""chainId"": 49,
+            ""clusterId"": 60,
+            ""details"": {
+                ""birthday"": ""2000-01-02"",
+                ""idcardno"": ""110105200101023500"",
+                ""sex"": ""女""
+            },
+            ""legerId"": 48,
+            ""orgId"": 3
+        }
+    },
+    ""timestamp"": 1626765872006,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:10:05 CST 2021","Fri Jul 23 14:10:06 CST 2021","517","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_013-{ ""data"":{""idcardno"":""110105200101024845"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""7b9ff2e32779963985d5e6d057a5e1b0c196f83ab63649e49dff41e87bad2635"",
+    ""legerId"": 52,
+    ""chainId"":56,
+    ""appId"": ""nd2GFm"",
+    ""clusterId"": 61
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626767967615,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:31 CST 2021","Fri Jul 23 14:10:32 CST 2021","715","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_011-{ ""data"":{""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""47d6c30e183c0311bcb6fd4938f1c51001830e3cafc4ab146e9bb4c1435e6382"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 0,
+    ""msg"": ""缺少参数data.idcardno"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626766890812,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:49 CST 2021","Fri Jul 23 14:09:50 CST 2021","444","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_026-{ ""data"":null,
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""data"": [
+            ""data不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626772359456,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:55 CST 2021","Fri Jul 23 14:09:55 CST 2021","459","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_038-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": """",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""appId"": [
+            ""应用ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626773658251,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:53 CST 2021","Fri Jul 23 14:10:54 CST 2021","710","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_042-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G""
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""clusterId"": [
+            ""网络ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626773897445,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:29 CST 2021","Fri Jul 23 14:10:30 CST 2021","700","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_009-{ ""data"":{""idcardno"":""110105200101023500"",""sex"":""女"",""birthday"":""2000-01-02"",""name"":""不理不理""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""6f98cbaac1a2653f31c3b64f9afc392eba3e9b04b38d55df37b87408795aff99"",
+    ""legerId"": 51,
+    ""chainId"":54,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 0,
+    ""msg"": ""合约账本必须有唯一Key"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626766193636,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:56 CST 2021","Fri Jul 23 14:09:57 CST 2021","465","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_041-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G""
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""clusterId"": [
+            ""网络ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626773868111,
+    ""success"": false
+}]",""
+"failed","Fri Jul 23 14:09:37 CST 2021","Fri Jul 23 14:09:37 CST 2021","-35","testcase","test_openApi","TestOpenAPI","","","test_data_save_right[SJSL_005-{ ""data"":{""ybcode"":""zhangsan001"",""sex"":""男"",""name"":""张三""},
+    ""nonce"": ""two3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""4fd2fe34a2670aee7167b3e74a365cdb70310f60caf85ebbbb294e838885f4ce"",
+    ""legerId"": 49,
+    ""chainId"":52,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 61
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": ""c2ea5a4e85a74e199c29013e1e1ad5546e4325f24a3459c5f8165f16d60abe97""
+    },
+    ""timestamp"": 1626765289832,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:10:41 CST 2021","Fri Jul 23 14:10:41 CST 2021","691","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_025-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""be683b406cfc417847597511d522f6bd8d8cae1e0b54d25132016df6f56605d3"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 61
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626771151094,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:22 CST 2021","Fri Jul 23 14:10:22 CST 2021","598","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_041-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"":""""
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""clusterId"": [
+            ""网络ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626773825718,
+    ""success"": false
+}]",""
+"failed","Fri Jul 23 14:09:58 CST 2021","Fri Jul 23 14:09:58 CST 2021","-29","testcase","test_openApi","TestOpenAPI","","","test_data_query_right[SJCX_002-{ ""data"":{""idcardno"":""110105200001029753""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""f3cfd8849a30defac270303d54e791d9e04b6568fec0cdc5db84c92b37a0d99e"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": {
+            ""appId"": ""rRHm0G"",
+            ""clusterId"": 60,
+            ""chainId"": 49,
+            ""legerId"": 48,
+            ""orgId"": 3,
+            ""details"": {
+                ""birthday"": ""2000-01-02"",
+                ""idcardno"": ""110105200001029753"",
+                ""sex"": ""男""
+            }
+        }
+    },
+    ""timestamp"": 1626763937578,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:10:27 CST 2021","Fri Jul 23 14:10:28 CST 2021","800","testcase","test_openApi","TestOpenAPI","","","test_data_check_right[SJHY_006-{ ""data"":{""ybcode"":""lisi001"",""sex"":""男"",""name"":""李四""},
+    ""nonce"": ""two3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""59b27b58b6fd4633ae9155bb071db9e9b44d53d7b695b44c02a65e4bd3a7076e"",
+    ""legerId"": 49,
+    ""chainId"":53,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 61
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": true
+    },
+    ""timestamp"": 1626765639295,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:10:11 CST 2021","Fri Jul 23 14:10:12 CST 2021","566","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_024-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d5fc836526c9b2a3e2e7aad5f4eead8e0ca021382200f9329b5e7752df5fb2ec"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0g"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626770837972,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:50 CST 2021","Fri Jul 23 14:09:50 CST 2021","426","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_027-{
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""data"": [
+            ""data不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626772437630,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:50 CST 2021","Fri Jul 23 14:10:51 CST 2021","681","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_038-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414"",
+    ""legerId"":48,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""chainId"": [
+            ""子链ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626773599167,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:21 CST 2021","Fri Jul 23 14:10:22 CST 2021","633","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_040-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""appId"": [
+            ""应用ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626773728489,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:46 CST 2021","Fri Jul 23 14:10:47 CST 2021","698","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_033-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": """",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""sign"": [
+            ""数据签名不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626773147061,
+    ""success"": false
+}]",""
+"failed","Fri Jul 23 14:10:28 CST 2021","Fri Jul 23 14:10:28 CST 2021","-25","testcase","test_openApi","TestOpenAPI","","","test_data_check_right[SJHY_007-{ ""data"":{""idcardno"":""110105200101023500"",""sex"":""女"",""birthday"":""2000-01-02"",""name"":""不理不理""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""7acae9464c29f290fd0929dd47c5aaf159280eb36582deedc79d9cebda5cbf78"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": true
+    },
+    ""timestamp"": 1626765883608,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:10:44 CST 2021","Fri Jul 23 14:10:45 CST 2021","698","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_030-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""timestamp"": 1941761698000,
+    ""sign"": ""9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""nonce"": [
+            ""7位随机数不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626772715919,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:05 CST 2021","Fri Jul 23 14:10:05 CST 2021","480","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_012-{ ""data"":{""idcardno"":""110105200101023201"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""two3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""b137353b17236cdcbb1dc642415bba3d6d951a2997067e1fa662c2de1b8321a8"",
+    ""legerId"": 52,
+    ""chainId"":55,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 61
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626767623490,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:01 CST 2021","Fri Jul 23 14:10:01 CST 2021","635","testcase","test_openApi","TestOpenAPI","","","test_data_query_right[SJCX_006-{ ""data"":{""ybcode"":""lisi001"",""sex"":""男"",""name"":""李四""},
+    ""nonce"": ""two3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""59b27b58b6fd4633ae9155bb071db9e9b44d53d7b695b44c02a65e4bd3a7076e"",
+    ""legerId"": 49,
+    ""chainId"":53,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 61
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": {
+            ""appId"": ""rRHm0G"",
+            ""chainId"": 53,
+            ""clusterId"": 61,
+            ""details"": {
+                ""name"": ""李四"",
+                ""sex"": ""男"",
+                ""ybcode"": ""lisi001""
+            },
+            ""legerId"": 49,
+            ""orgId"": 3
+        }
+    },
+    ""timestamp"": 1626765624400,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:10:48 CST 2021","Fri Jul 23 14:10:49 CST 2021","682","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_035-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338"",
+    ""legerId"":null,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""legerId"": [
+            ""账本ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626773325345,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:46 CST 2021","Fri Jul 23 14:09:46 CST 2021","410","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_018-{ ""data"":{""idcardno"":""110105200101029566"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""a74adfd2b825f44b3853d39f0e246ef86ee00aeee3188cce15ac302cbcacd2d9"",
+    ""legerId"": 2,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626769301368,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:19 CST 2021","Fri Jul 23 14:10:20 CST 2021","548","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_037-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414"",
+    ""legerId"":48,
+    ""chainId"":"""",
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""chainId"": [
+            ""子链ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626773527134,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:17 CST 2021","Fri Jul 23 14:10:17 CST 2021","565","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_033-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": """",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""sign"": [
+            ""数据签名不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626773117483,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:45 CST 2021","Fri Jul 23 14:09:45 CST 2021","403","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_016-{ ""data"":{""idcardno"":""110105200101029566"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1626229198000,
+    ""sign"": ""086a8d3571376c9f574c75c20cd77e62f12a13401bb93c8a7aa203425d5461fa"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626769002324,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:47 CST 2021","Fri Jul 23 14:10:48 CST 2021","694","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_034-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""sign"": [
+            ""数据签名不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626773199654,
+    ""success"": false
+}]",""
+"failed","Fri Jul 23 14:09:34 CST 2021","Fri Jul 23 14:09:34 CST 2021","-28","testcase","test_openApi","TestOpenAPI","","","test_data_save_right[SJSL_003-{ ""data"":{""idcardno"":""110105200001021452"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d8d1d2f27030ab36d69b155bb0825189e3b55c1873e64b122dde7c0df140acd4"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": ""48ca10e36edd138ff6d802eaa14c44323cd46c90a8186445840409c6f04c1c5e""
+    },
+    ""timestamp"": 1626764041829,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:10:38 CST 2021","Fri Jul 23 14:10:39 CST 2021","670","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_021-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""4ca34ab7b14ee55cb89b0e406f69a4b34f28a3ca84b22036d1f4aa8fb5d695ad"",
+    ""legerId"":48,
+    ""chainId"":54,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626770036712,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:47 CST 2021","Fri Jul 23 14:09:47 CST 2021","412","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_021-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""5fa6def7c614a76e481d97c39fc212ef0113ede892c303d809559615434898df"",
+    ""legerId"":48,
+    ""chainId"":100000,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626770416007,
+    ""success"": false
+}]",""
+"failed","Fri Jul 23 14:10:23 CST 2021","Fri Jul 23 14:10:23 CST 2021","-24","testcase","test_openApi","TestOpenAPI","","","test_data_check_right[SJHY_001-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": true
+    },
+    ""timestamp"": 1626763808993,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:10:07 CST 2021","Fri Jul 23 14:10:08 CST 2021","516","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_017-{ ""data"":{""idcardno"":""110105200101029566"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1626229198000,
+    ""sign"": ""086a8d3571376c9f574c75c20cd77e62f12a13401bb93c8a7aa203425d5461fa"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626769024670,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:37 CST 2021","Fri Jul 23 14:10:38 CST 2021","665","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_020-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""7ede925fb2b5fb1a075f6a208504c51449873254b2812cfdbd75c2090569d348"",
+    ""legerId"":100000,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626769791227,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:03 CST 2021","Fri Jul 23 14:10:03 CST 2021","564","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_009-{ ""data"":{""idcardno"":""110105200101023500"",""sex"":""女"",""birthday"":""2000-01-02"",""name"":""不理不理""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""6f98cbaac1a2653f31c3b64f9afc392eba3e9b04b38d55df37b87408795aff99"",
+    ""legerId"": 51,
+    ""chainId"":54,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 0,
+    ""msg"": ""合约账本必须有唯一Key"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626766189997,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:47 CST 2021","Fri Jul 23 14:09:48 CST 2021","449","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_022-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""7963cd541e3d702eea4f22a5b75772443df1f56c9b92cb76f52174b099fb69f4"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""N92bMb"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626770723148,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:13 CST 2021","Fri Jul 23 14:10:14 CST 2021","533","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_027-{ ""data"":null,
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""data"": [
+            ""data不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626772385443,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:52 CST 2021","Fri Jul 23 14:10:52 CST 2021","699","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_040-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""appId"": [
+            ""应用ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626773743616,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:39 CST 2021","Fri Jul 23 14:10:40 CST 2021","671","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_023-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""7963cd541e3d702eea4f22a5b75772443df1f56c9b92cb76f52174b099fb69f4"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""N92bMb"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626770765456,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:54 CST 2021","Fri Jul 23 14:09:54 CST 2021","445","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_035-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338"",
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""legerId"": [
+            ""账本ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626773347313,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:07 CST 2021","Fri Jul 23 14:10:07 CST 2021","523","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_016-{ ""data"":{""idcardno"":""110105200101029566"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874m"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""0dc10719475382eba093ac3a8dfcb95202f3c3691a0753c099491e10ec4f1e86"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""nonce"": [
+            ""length must be between 7 and 7""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626768917355,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:22 CST 2021","Fri Jul 23 14:10:23 CST 2021","591","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_042-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G""
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""clusterId"": [
+            ""网络ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626773882242,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:30 CST 2021","Fri Jul 23 14:10:31 CST 2021","859","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_010-{ ""data"":{""idcardno"":""110105200101023500"",""sex"":""女"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""7c3a6b0a001171b38b0be082147c680457d3fb6b39a9c50e019417da819c86e8"",
+    ""legerId"": 50,
+    ""chainId"":51,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 62
+}-{
+    ""code"": 500,
+    ""msg"": ""合约执行失败"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626766378735,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:51 CST 2021","Fri Jul 23 14:09:51 CST 2021","412","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_029-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""timestamp"": 1941761698000,
+    ""sign"": ""9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""nonce"": [
+            ""7位随机数不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626772673059,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:18 CST 2021","Fri Jul 23 14:10:19 CST 2021","562","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_035-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338"",
+    ""legerId"":null,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""legerId"": [
+            ""账本ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626773309578,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:41 CST 2021","Fri Jul 23 14:10:42 CST 2021","683","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_026-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""73e01cd94017563ea4d334fe665e6910d628d359f65c44286bd97a6e79463595"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"":100000
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626771227433,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:34 CST 2021","Fri Jul 23 14:09:37 CST 2021","2863","testcase","test_openApi","TestOpenAPI","","","test_data_save_right[SJSL_004-{ ""data"":{""idcardno"":""110105200101023949"",""sex"":""女"",""birthday"":""2000-01-02""},
+    ""nonce"": ""two3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""b6ebc47de4d36111a4da21cb700efcee2a84018e44bdf83b114297414ec55e55"",
+    ""legerId"": 48,
+    ""chainId"":50,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 61
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": ""8723bc7ba4060133551a54d9a513bfdbd9fb4429346aa51abe3efa1a7e99faa2""
+    },
+    ""timestamp"": 1626764950526,
+    ""success"": true
+}]",""
+"failed","Fri Jul 23 14:09:40 CST 2021","Fri Jul 23 14:09:40 CST 2021","-27","testcase","test_openApi","TestOpenAPI","","","test_data_save_right[SJSL_007-{ ""data"":{""idcardno"":""110105200101023500"",""sex"":""女"",""birthday"":""2000-01-02"",""name"":""不理不理""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""7acae9464c29f290fd0929dd47c5aaf159280eb36582deedc79d9cebda5cbf78"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": ""b77897398b70f2ca9e76cecb569df8b4ee5aa9039a5b29b9c278a689c8218d55""
+    },
+    ""timestamp"": 1626765831650,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:09:38 CST 2021","Fri Jul 23 14:09:40 CST 2021","2674","testcase","test_openApi","TestOpenAPI","","","test_data_save_right[SJSL_006-{ ""data"":{""ybcode"":""lisi001"",""sex"":""男"",""name"":""李四""},
+    ""nonce"": ""two3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""59b27b58b6fd4633ae9155bb071db9e9b44d53d7b695b44c02a65e4bd3a7076e"",
+    ""legerId"": 49,
+    ""chainId"":53,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 61
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": ""612ab2e736964e25663ae2e3fd836340bfcaaa1b84fb368f6739e82473b3f801""
+    },
+    ""timestamp"": 1626765590444,
+    ""success"": true
+}]",""
+"failed","Fri Jul 23 14:10:00 CST 2021","Fri Jul 23 14:10:00 CST 2021","-16","testcase","test_openApi","TestOpenAPI","","","test_data_query_right[SJCX_005-{ ""data"":{""ybcode"":""zhangsan001"",""sex"":""男"",""name"":""张三""},
+    ""nonce"": ""two3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""4fd2fe34a2670aee7167b3e74a365cdb70310f60caf85ebbbb294e838885f4ce"",
+    ""legerId"": 49,
+    ""chainId"":52,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 61
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": {
+            ""appId"": ""rRHm0G"",
+            ""chainId"": 52,
+            ""clusterId"": 61,
+            ""details"": {
+                ""name"": ""张三"",
+                ""sex"": ""男"",
+                ""ybcode"": ""zhangsan001""
+            },
+            ""legerId"": 49,
+            ""orgId"": 3
+        }
+    },
+    ""timestamp"": 1626765374400,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:09:55 CST 2021","Fri Jul 23 14:09:55 CST 2021","456","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_037-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414"",
+    ""legerId"":48,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""chainId"": [
+            ""子链ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626773560571,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:47 CST 2021","Fri Jul 23 14:09:47 CST 2021","430","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_020-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""4ca34ab7b14ee55cb89b0e406f69a4b34f28a3ca84b22036d1f4aa8fb5d695ad"",
+    ""legerId"":48,
+    ""chainId"":54,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626769994875,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:34 CST 2021","Fri Jul 23 14:10:35 CST 2021","655","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_016-{ ""data"":{""idcardno"":""110105200101029566"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874m"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""0dc10719475382eba093ac3a8dfcb95202f3c3691a0753c099491e10ec4f1e86"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""nonce"": [
+            ""length must be between 7 and 7""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626768940273,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:17 CST 2021","Fri Jul 23 14:10:18 CST 2021","571","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_034-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""sign"": [
+            ""数据签名不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626773182551,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:52 CST 2021","Fri Jul 23 14:09:53 CST 2021","446","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_032-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": """",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""sign"": [
+            ""数据签名不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626773105913,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:52 CST 2021","Fri Jul 23 14:09:52 CST 2021","452","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_031-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""sign"": ""0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""timestamp"": [
+            ""发送时间戳不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626772871528,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:52 CST 2021","Fri Jul 23 14:10:53 CST 2021","710","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_041-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"":""""
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""clusterId"": [
+            ""网络ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626773841145,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:46 CST 2021","Fri Jul 23 14:09:47 CST 2021","410","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_019-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""7ede925fb2b5fb1a075f6a208504c51449873254b2812cfdbd75c2090569d348"",
+    ""legerId"":100000,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626769752164,
+    ""success"": false
+}]",""
+"failed","Fri Jul 23 14:10:02 CST 2021","Fri Jul 23 14:10:02 CST 2021","-32","testcase","test_openApi","TestOpenAPI","","","test_data_query_right[SJCX_008-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": {
+            ""appId"": ""rRHm0G"",
+            ""clusterId"": 60,
+            ""chainId"": 49,
+            ""legerId"": 48,
+            ""orgId"": 3,
+            ""details"": {
+                ""birthday"": ""2000-01-02"",
+                ""idcardno"": ""110105200001029753"",
+                ""sex"": ""男""
+            }
+        }
+    },
+    ""timestamp"": 1626767115151,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:10:39 CST 2021","Fri Jul 23 14:10:39 CST 2021","682","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_022-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""5fa6def7c614a76e481d97c39fc212ef0113ede892c303d809559615434898df"",
+    ""legerId"":48,
+    ""chainId"":100000,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626770456140,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:15 CST 2021","Fri Jul 23 14:10:16 CST 2021","553","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_030-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""timestamp"": 1941761698000,
+    ""sign"": ""9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""nonce"": [
+            ""7位随机数不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626772694464,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:10 CST 2021","Fri Jul 23 14:10:11 CST 2021","540","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_022-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""5fa6def7c614a76e481d97c39fc212ef0113ede892c303d809559615434898df"",
+    ""legerId"":48,
+    ""chainId"":100000,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626770433807,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:10 CST 2021","Fri Jul 23 14:10:10 CST 2021","561","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_021-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""4ca34ab7b14ee55cb89b0e406f69a4b34f28a3ca84b22036d1f4aa8fb5d695ad"",
+    ""legerId"":48,
+    ""chainId"":54,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626770016914,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:59 CST 2021","Fri Jul 23 14:10:00 CST 2021","614","testcase","test_openApi","TestOpenAPI","","","test_data_query_right[SJCX_004-{ ""data"":{""idcardno"":""110105200101023949"",""sex"":""女"",""birthday"":""2000-01-02""},
+    ""nonce"": ""two3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""b6ebc47de4d36111a4da21cb700efcee2a84018e44bdf83b114297414ec55e55"",
+    ""legerId"": 48,
+    ""chainId"":50,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 61
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": {
+            ""appId"": ""rRHm0G"",
+            ""chainId"": 50,
+            ""clusterId"": 61,
+            ""details"": {
+                ""birthday"": ""2000-01-02"",
+                ""idcardno"": ""110105200101023949"",
+                ""sex"": ""女""
+            },
+            ""legerId"": 48,
+            ""orgId"": 3
+        }
+    },
+    ""timestamp"": 1626764979759,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:09:41 CST 2021","Fri Jul 23 14:09:41 CST 2021","453","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_008-{ ""data"":{""idcardno"":""110105200101023500"",""sex"":""女"",""birthday"":""2000-01-02"",""name"":""不理不理""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""6f98cbaac1a2653f31c3b64f9afc392eba3e9b04b38d55df37b87408795aff99"",
+    ""legerId"": 51,
+    ""chainId"":54,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 0,
+    ""msg"": ""合约账本必须有唯一Key"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626766167518,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:20 CST 2021","Fri Jul 23 14:10:20 CST 2021","586","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_038-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414"",
+    ""legerId"":48,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""chainId"": [
+            ""子链ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626773579735,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:14 CST 2021","Fri Jul 23 14:10:15 CST 2021","558","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_029-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": """",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""nonce"": [
+            ""7位随机数不能为空"",
+            ""length must be between 7 and 7""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626772636830,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:36 CST 2021","Fri Jul 23 14:10:37 CST 2021","670","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_019-{ ""data"":{""idcardno"":""110105200101029566"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""a74adfd2b825f44b3853d39f0e246ef86ee00aeee3188cce15ac302cbcacd2d9"",
+    ""legerId"": 2,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626769357969,
+    ""success"": false
+}]",""
+"failed","Fri Jul 23 14:10:29 CST 2021","Fri Jul 23 14:10:29 CST 2021","-20","testcase","test_openApi","TestOpenAPI","","","test_data_check_right[SJHY_008-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": false
+    },
+    ""timestamp"": 1626767158813,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:10:33 CST 2021","Fri Jul 23 14:10:34 CST 2021","711","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_014-{ ""data"":{""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""47d6c30e183c0311bcb6fd4938f1c51001830e3cafc4ab146e9bb4c1435e6382"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 0,
+    ""msg"": ""缺少参数data.idcardno"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626768798432,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:06 CST 2021","Fri Jul 23 14:10:07 CST 2021","510","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_015-{ ""data"":{""idcardno"":""110105200101029566"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one387"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d2506fdc33dc2a73f8b35d6c0b9ebdf769144bcb697fc71c82db7b920cbc4f1e"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""nonce"": [
+            ""length must be between 7 and 7""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626768679975,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:04 CST 2021","Fri Jul 23 14:10:05 CST 2021","564","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_011-{ ""data"":{""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""47d6c30e183c0311bcb6fd4938f1c51001830e3cafc4ab146e9bb4c1435e6382"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 0,
+    ""msg"": ""缺少参数data.idcardno"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626766870768,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:45 CST 2021","Fri Jul 23 14:09:46 CST 2021","406","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_017-{ ""data"":{""idcardno"":""110105200101029566"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626769137730,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:16 CST 2021","Fri Jul 23 14:10:16 CST 2021","564","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_031-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": null,
+    ""sign"": ""0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""timestamp"": [
+            ""发送时间戳不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626772838048,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:43 CST 2021","Fri Jul 23 14:09:43 CST 2021","462","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_011-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 0,
+    ""msg"": ""缺少参数：body.birthday"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626766936160,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:14 CST 2021","Fri Jul 23 14:10:14 CST 2021","554","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_028-{
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""data"": [
+            ""data不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626772473780,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:11 CST 2021","Fri Jul 23 14:10:11 CST 2021","557","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_023-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""7963cd541e3d702eea4f22a5b75772443df1f56c9b92cb76f52174b099fb69f4"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""N92bMb"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626770748047,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:09 CST 2021","Fri Jul 23 14:10:09 CST 2021","553","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_019-{ ""data"":{""idcardno"":""110105200101029566"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""a74adfd2b825f44b3853d39f0e246ef86ee00aeee3188cce15ac302cbcacd2d9"",
+    ""legerId"": 2,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626769327293,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:35 CST 2021","Fri Jul 23 14:10:36 CST 2021","648","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_017-{ ""data"":{""idcardno"":""110105200101029566"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1626229198000,
+    ""sign"": ""086a8d3571376c9f574c75c20cd77e62f12a13401bb93c8a7aa203425d5461fa"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626769045283,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:25 CST 2021","Fri Jul 23 14:10:26 CST 2021","731","testcase","test_openApi","TestOpenAPI","","","test_data_check_right[SJHY_004-{ ""data"":{""idcardno"":""110105200101023949"",""sex"":""女"",""birthday"":""2000-01-02""},
+    ""nonce"": ""two3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""b6ebc47de4d36111a4da21cb700efcee2a84018e44bdf83b114297414ec55e55"",
+    ""legerId"": 48,
+    ""chainId"":50,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 61
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": true
+    },
+    ""timestamp"": 1626765014590,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:10:51 CST 2021","Fri Jul 23 14:10:51 CST 2021","692","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_039-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": """",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""appId"": [
+            ""应用ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626773689681,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:46 CST 2021","Fri Jul 23 14:10:46 CST 2021","711","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_032-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""sign"": ""0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""timestamp"": [
+            ""发送时间戳不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626772918512,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:19 CST 2021","Fri Jul 23 14:10:19 CST 2021","574","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_036-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338"",
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""legerId"": [
+            ""账本ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626773366409,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:08 CST 2021","Fri Jul 23 14:10:09 CST 2021","567","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_018-{ ""data"":{""idcardno"":""110105200101029566"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626769141328,
+    ""success"": false
+}]",""
+"failed","Fri Jul 23 14:09:57 CST 2021","Fri Jul 23 14:09:57 CST 2021","-26","testcase","test_openApi","TestOpenAPI","","","test_data_query_right[SJCX_001-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 200,
+    ""msg"": ""成功"",
+    ""data"": {
+        ""data"": {
+            ""appId"": ""rRHm0G"",
+            ""chainId"": 49,
+            ""clusterId"": 60,
+            ""details"": {
+                ""birthday"": ""2000-01-02"",
+                ""idcardno"": ""110105200001029753"",
+                ""sex"": ""男""
+            },
+            ""legerId"": 48,
+            ""orgId"": 3
+        }
+    },
+    ""timestamp"": 1626763792739,
+    ""success"": true
+}]",""
+"passed","Fri Jul 23 14:09:42 CST 2021","Fri Jul 23 14:09:42 CST 2021","483","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_010-{ ""data"":{""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""47d6c30e183c0311bcb6fd4938f1c51001830e3cafc4ab146e9bb4c1435e6382"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 0,
+    ""msg"": ""缺少参数：body.idcardno"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626766840082,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:50 CST 2021","Fri Jul 23 14:09:51 CST 2021","426","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_028-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": """",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""nonce"": [
+            ""7位随机数不能为空"",
+            ""length must be between 7 and 7""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626772617944,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:43 CST 2021","Fri Jul 23 14:09:43 CST 2021","423","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_012-{ ""data"":{""idcardno"":""110105200101023201"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""two3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""b137353b17236cdcbb1dc642415bba3d6d951a2997067e1fa662c2de1b8321a8"",
+    ""legerId"": 52,
+    ""chainId"":55,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 61
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626767581204,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:36 CST 2021","Fri Jul 23 14:10:36 CST 2021","648","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_018-{ ""data"":{""idcardno"":""110105200101029566"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626769181107,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:06 CST 2021","Fri Jul 23 14:10:06 CST 2021","608","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_014-{ ""data"":{""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""47d6c30e183c0311bcb6fd4938f1c51001830e3cafc4ab146e9bb4c1435e6382"",
+    ""legerId"": 48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 0,
+    ""msg"": ""缺少参数data.idcardno"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626768775715,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:16 CST 2021","Fri Jul 23 14:10:17 CST 2021","535","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_032-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""sign"": ""0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""timestamp"": [
+            ""发送时间戳不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626772895952,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:45 CST 2021","Fri Jul 23 14:10:46 CST 2021","722","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_031-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": null,
+    ""sign"": ""0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""timestamp"": [
+            ""发送时间戳不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626772853309,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:49 CST 2021","Fri Jul 23 14:10:49 CST 2021","691","testcase","test_openApi","TestOpenAPI","","","test_data_check_error[SJHY_036-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338"",
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""legerId"": [
+            ""账本ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/check"",
+    ""timestamp"": 1626773383004,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:09:53 CST 2021","Fri Jul 23 14:09:54 CST 2021","420","testcase","test_openApi","TestOpenAPI","","","test_data_save_error[SJSL_034-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338"",
+    ""legerId"":null,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 60
+}-{
+    ""code"": 901,
+    ""msg"": ""参数错误"",
+    ""data"": {
+        ""legerId"": [
+            ""账本ID不能为空""
+        ]
+    },
+    ""path"": ""/rest/data/save"",
+    ""timestamp"": 1626773291250,
+    ""success"": false
+}]",""
+"passed","Fri Jul 23 14:10:12 CST 2021","Fri Jul 23 14:10:13 CST 2021","594","testcase","test_openApi","TestOpenAPI","","","test_data_query_error[SJCX_025-{ ""data"":{""idcardno"":""110105200001029753"",""sex"":""男"",""birthday"":""2000-01-02""},
+    ""nonce"": ""one3874"",
+    ""timestamp"": 1941761698000,
+    ""sign"": ""be683b406cfc417847597511d522f6bd8d8cae1e0b54d25132016df6f56605d3"",
+    ""legerId"":48,
+    ""chainId"":49,
+    ""appId"": ""rRHm0G"",
+    ""clusterId"": 61
+}-{
+    ""code"": 401,
+    ""msg"": ""无权限访问"",
+    ""path"": ""/rest/data/query"",
+    ""timestamp"": 1626771134873,
+    ""success"": false
+}]",""

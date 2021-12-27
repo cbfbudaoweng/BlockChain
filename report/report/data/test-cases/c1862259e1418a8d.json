@@ -1,0 +1,68 @@
+{
+  "uid" : "c1862259e1418a8d",
+  "name" : "test_data_save_error[SJSL_040-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":\"\"\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": [\n            \"网络ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773809982,\n    \"success\": false\n}]",
+  "fullName" : "testcase.test_openApi.TestOpenAPI#test_data_save_error[SJSL_040-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":\"\"\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": ",
+  "historyId" : "d54cc9f9604e39a28d5b1f5832d29026",
+  "time" : {
+    "start" : 1627020596458,
+    "stop" : 1627020596901,
+    "duration" : 443
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "数据上链-异常流"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_openApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOpenAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5UFTAI3"
+  }, {
+    "name" : "thread",
+    "value" : "14072-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_openApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseNum",
+    "value" : "'SJSL_040'"
+  }, {
+    "name" : "expData",
+    "value" : "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": [\n            \"网络ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773809982,\n    \"success\": false\n}'"
+  }, {
+    "name" : "inData",
+    "value" : "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":\"\"\n}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1862259e1418a8d.json",
+  "parameterValues" : [ "'SJSL_040'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": [\n            \"网络ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773809982,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":\"\"\n}'" ]
+}

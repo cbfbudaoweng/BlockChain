@@ -1,0 +1,246 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:56: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:57: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:58: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "test_data_save_right[SJSL_001-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"a8dd2432b26c3d30a9254b97d60dd8199f15650bb282a108e179865165ea5a5e\"\n    },\n    \"timestamp\": 1626763727326,\n    \"success\": true\n}]",
+        "uid" : "f1251708387b90b6",
+        "parentUid" : "ad9309e75f1548a0bce32734450742d7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020572809,
+          "stop" : 1627020572790,
+          "duration" : -19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJSL_001'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"a8dd2432b26c3d30a9254b97d60dd8199f15650bb282a108e179865165ea5a5e\"\n    },\n    \"timestamp\": 1626763727326,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+      }, {
+        "name" : "test_data_save_right[SJSL_002-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"75434c80cc54fbb2a6a83130b152e649b4f63dc6a12ae7996ed1aa91871d275f\"\n    },\n    \"timestamp\": 1626763865025,\n    \"success\": true\n}]",
+        "uid" : "2b54bc2b16dc33e5",
+        "parentUid" : "ad9309e75f1548a0bce32734450742d7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020573682,
+          "stop" : 1627020573642,
+          "duration" : -40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJSL_002'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"75434c80cc54fbb2a6a83130b152e649b4f63dc6a12ae7996ed1aa91871d275f\"\n    },\n    \"timestamp\": 1626763865025,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+      }, {
+        "name" : "test_data_save_right[SJSL_003-{ \"data\":{\"idcardno\":\"110105200001021452\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d8d1d2f27030ab36d69b155bb0825189e3b55c1873e64b122dde7c0df140acd4\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"48ca10e36edd138ff6d802eaa14c44323cd46c90a8186445840409c6f04c1c5e\"\n    },\n    \"timestamp\": 1626764041829,\n    \"success\": true\n}]",
+        "uid" : "2892824c7aca621b",
+        "parentUid" : "ad9309e75f1548a0bce32734450742d7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020574145,
+          "stop" : 1627020574117,
+          "duration" : -28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJSL_003'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"48ca10e36edd138ff6d802eaa14c44323cd46c90a8186445840409c6f04c1c5e\"\n    },\n    \"timestamp\": 1626764041829,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001021452\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d8d1d2f27030ab36d69b155bb0825189e3b55c1873e64b122dde7c0df140acd4\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+      }, {
+        "name" : "test_data_save_right[SJSL_005-{ \"data\":{\"ybcode\":\"zhangsan001\",\"sex\":\"男\",\"name\":\"张三\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4fd2fe34a2670aee7167b3e74a365cdb70310f60caf85ebbbb294e838885f4ce\",\n    \"legerId\": 49,\n    \"chainId\":52,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"c2ea5a4e85a74e199c29013e1e1ad5546e4325f24a3459c5f8165f16d60abe97\"\n    },\n    \"timestamp\": 1626765289832,\n    \"success\": true\n}]",
+        "uid" : "6cfda949ab237f77",
+        "parentUid" : "ad9309e75f1548a0bce32734450742d7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020577513,
+          "stop" : 1627020577478,
+          "duration" : -35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJSL_005'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"c2ea5a4e85a74e199c29013e1e1ad5546e4325f24a3459c5f8165f16d60abe97\"\n    },\n    \"timestamp\": 1626765289832,\n    \"success\": true\n}'", "'{ \"data\":{\"ybcode\":\"zhangsan001\",\"sex\":\"男\",\"name\":\"张三\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4fd2fe34a2670aee7167b3e74a365cdb70310f60caf85ebbbb294e838885f4ce\",\n    \"legerId\": 49,\n    \"chainId\":52,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+      }, {
+        "name" : "test_data_save_right[SJSL_007-{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7acae9464c29f290fd0929dd47c5aaf159280eb36582deedc79d9cebda5cbf78\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"b77897398b70f2ca9e76cecb569df8b4ee5aa9039a5b29b9c278a689c8218d55\"\n    },\n    \"timestamp\": 1626765831650,\n    \"success\": true\n}]",
+        "uid" : "e18fb4790b53b4a7",
+        "parentUid" : "ad9309e75f1548a0bce32734450742d7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020580801,
+          "stop" : 1627020580774,
+          "duration" : -27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJSL_007'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"b77897398b70f2ca9e76cecb569df8b4ee5aa9039a5b29b9c278a689c8218d55\"\n    },\n    \"timestamp\": 1626765831650,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7acae9464c29f290fd0929dd47c5aaf159280eb36582deedc79d9cebda5cbf78\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+      } ],
+      "uid" : "ad9309e75f1548a0bce32734450742d7"
+    }, {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:92: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:93: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:94: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "test_data_query_right[SJCX_001-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 49,\n            \"clusterId\": 60,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200001029753\",\n                \"sex\": \"男\"\n            },\n            \"legerId\": 48,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626763792739,\n    \"success\": true\n}]",
+        "uid" : "3c7234e2b42740b9",
+        "parentUid" : "0cec973f23d877cdb31613374432bbbd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020597417,
+          "stop" : 1627020597391,
+          "duration" : -26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJCX_001'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 49,\n            \"clusterId\": 60,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200001029753\",\n                \"sex\": \"男\"\n            },\n            \"legerId\": 48,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626763792739,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+      }, {
+        "name" : "test_data_query_right[SJCX_002-{ \"data\":{\"idcardno\":\"110105200001029753\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"f3cfd8849a30defac270303d54e791d9e04b6568fec0cdc5db84c92b37a0d99e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"clusterId\": 60,\n            \"chainId\": 49,\n            \"legerId\": 48,\n            \"orgId\": 3,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200001029753\",\n                \"sex\": \"男\"\n            }\n        }\n    },\n    \"timestamp\": 1626763937578,\n    \"success\": true\n}]",
+        "uid" : "25e5bf38a4052c49",
+        "parentUid" : "0cec973f23d877cdb31613374432bbbd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020598105,
+          "stop" : 1627020598076,
+          "duration" : -29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJCX_002'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"clusterId\": 60,\n            \"chainId\": 49,\n            \"legerId\": 48,\n            \"orgId\": 3,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200001029753\",\n                \"sex\": \"男\"\n            }\n        }\n    },\n    \"timestamp\": 1626763937578,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"f3cfd8849a30defac270303d54e791d9e04b6568fec0cdc5db84c92b37a0d99e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+      }, {
+        "name" : "test_data_query_right[SJCX_003-{ \"data\":{\"idcardno\":\"110105200001024952\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"af232a3176be2c0ba1f2efb226d4bd481dfe2a1b4a37df80a49785eec95ab833\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {}\n    },\n    \"timestamp\": 1626764091270,\n    \"success\": true\n}]",
+        "uid" : "60d2adaea2c54dca",
+        "parentUid" : "0cec973f23d877cdb31613374432bbbd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020598843,
+          "stop" : 1627020598807,
+          "duration" : -36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJCX_003'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {}\n    },\n    \"timestamp\": 1626764091270,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001024952\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"af232a3176be2c0ba1f2efb226d4bd481dfe2a1b4a37df80a49785eec95ab833\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+      }, {
+        "name" : "test_data_query_right[SJCX_005-{ \"data\":{\"ybcode\":\"zhangsan001\",\"sex\":\"男\",\"name\":\"张三\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4fd2fe34a2670aee7167b3e74a365cdb70310f60caf85ebbbb294e838885f4ce\",\n    \"legerId\": 49,\n    \"chainId\":52,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 52,\n            \"clusterId\": 61,\n            \"details\": {\n                \"name\": \"张三\",\n                \"sex\": \"男\",\n                \"ybcode\": \"zhangsan001\"\n            },\n            \"legerId\": 49,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626765374400,\n    \"success\": true\n}]",
+        "uid" : "5a7846daa0b0d92f",
+        "parentUid" : "0cec973f23d877cdb31613374432bbbd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020600181,
+          "stop" : 1627020600165,
+          "duration" : -16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJCX_005'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 52,\n            \"clusterId\": 61,\n            \"details\": {\n                \"name\": \"张三\",\n                \"sex\": \"男\",\n                \"ybcode\": \"zhangsan001\"\n            },\n            \"legerId\": 49,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626765374400,\n    \"success\": true\n}'", "'{ \"data\":{\"ybcode\":\"zhangsan001\",\"sex\":\"男\",\"name\":\"张三\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4fd2fe34a2670aee7167b3e74a365cdb70310f60caf85ebbbb294e838885f4ce\",\n    \"legerId\": 49,\n    \"chainId\":52,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+      }, {
+        "name" : "test_data_query_right[SJCX_007-{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7acae9464c29f290fd0929dd47c5aaf159280eb36582deedc79d9cebda5cbf78\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 49,\n            \"clusterId\": 60,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200101023500\",\n                \"sex\": \"女\"\n            },\n            \"legerId\": 48,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626765872006,\n    \"success\": true\n}]",
+        "uid" : "113c88860df78085",
+        "parentUid" : "0cec973f23d877cdb31613374432bbbd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020601699,
+          "stop" : 1627020601666,
+          "duration" : -33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJCX_007'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 49,\n            \"clusterId\": 60,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200101023500\",\n                \"sex\": \"女\"\n            },\n            \"legerId\": 48,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626765872006,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7acae9464c29f290fd0929dd47c5aaf159280eb36582deedc79d9cebda5cbf78\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+      }, {
+        "name" : "test_data_query_right[SJCX_008-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"clusterId\": 60,\n            \"chainId\": 49,\n            \"legerId\": 48,\n            \"orgId\": 3,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200001029753\",\n                \"sex\": \"男\"\n            }\n        }\n    },\n    \"timestamp\": 1626767115151,\n    \"success\": true\n}]",
+        "uid" : "cc993028f0cfc50c",
+        "parentUid" : "0cec973f23d877cdb31613374432bbbd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020602421,
+          "stop" : 1627020602389,
+          "duration" : -32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJCX_008'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"clusterId\": 60,\n            \"chainId\": 49,\n            \"legerId\": 48,\n            \"orgId\": 3,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200001029753\",\n                \"sex\": \"男\"\n            }\n        }\n    },\n    \"timestamp\": 1626767115151,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+      } ],
+      "uid" : "0cec973f23d877cdb31613374432bbbd"
+    }, {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:128: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:129: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:130: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "test_data_check_right[SJHY_001-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626763808993,\n    \"success\": true\n}]",
+        "uid" : "cc6ca09b36d75bbe",
+        "parentUid" : "f953f722dcc6e27fede4a27d49ac7259",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020623325,
+          "stop" : 1627020623301,
+          "duration" : -24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJHY_001'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626763808993,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+      }, {
+        "name" : "test_data_check_right[SJHY_002-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": false\n    },\n    \"timestamp\": 1626763959663,\n    \"success\": true\n}]",
+        "uid" : "b0370af3311c4fee",
+        "parentUid" : "f953f722dcc6e27fede4a27d49ac7259",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020624037,
+          "stop" : 1627020624020,
+          "duration" : -17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJHY_002'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": false\n    },\n    \"timestamp\": 1626763959663,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+      }, {
+        "name" : "test_data_check_right[SJHY_005-{ \"data\":{\"ybcode\":\"zhangsan001\",\"sex\":\"男\",\"name\":\"张三\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4fd2fe34a2670aee7167b3e74a365cdb70310f60caf85ebbbb294e838885f4ce\",\n    \"legerId\": 49,\n    \"chainId\":52,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626765518092,\n    \"success\": true\n}]",
+        "uid" : "c311b62d07043c15",
+        "parentUid" : "f953f722dcc6e27fede4a27d49ac7259",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020626653,
+          "stop" : 1627020626631,
+          "duration" : -22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJHY_005'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626765518092,\n    \"success\": true\n}'", "'{ \"data\":{\"ybcode\":\"zhangsan001\",\"sex\":\"男\",\"name\":\"张三\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4fd2fe34a2670aee7167b3e74a365cdb70310f60caf85ebbbb294e838885f4ce\",\n    \"legerId\": 49,\n    \"chainId\":52,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+      }, {
+        "name" : "test_data_check_right[SJHY_007-{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7acae9464c29f290fd0929dd47c5aaf159280eb36582deedc79d9cebda5cbf78\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626765883608,\n    \"success\": true\n}]",
+        "uid" : "d1a667fa72a87cb6",
+        "parentUid" : "f953f722dcc6e27fede4a27d49ac7259",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020628234,
+          "stop" : 1627020628209,
+          "duration" : -25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJHY_007'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626765883608,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7acae9464c29f290fd0929dd47c5aaf159280eb36582deedc79d9cebda5cbf78\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+      }, {
+        "name" : "test_data_check_right[SJHY_008-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": false\n    },\n    \"timestamp\": 1626767158813,\n    \"success\": true\n}]",
+        "uid" : "4bf9f6c893200f15",
+        "parentUid" : "f953f722dcc6e27fede4a27d49ac7259",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020629114,
+          "stop" : 1627020629094,
+          "duration" : -20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJHY_008'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": false\n    },\n    \"timestamp\": 1626767158813,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+      } ],
+      "uid" : "f953f722dcc6e27fede4a27d49ac7259"
+    }, {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n2 Failed Assumptions:\n\ntest_openApi.py:128: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:129: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "test_data_check_right[SJHY_003-{ \"data\":{\"idcardno\":\"110105200001024952\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"af232a3176be2c0ba1f2efb226d4bd481dfe2a1b4a37df80a49785eec95ab833\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 0,\n    \"msg\": \"数据未上链\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626764113794,\n    \"success\": false\n}]",
+        "uid" : "359a36ea56a1a1a3",
+        "parentUid" : "a9336f98b62de86920c314e72d46b295",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627020624957,
+          "stop" : 1627020624929,
+          "duration" : -28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'SJHY_003'", "'{\n    \"code\": 0,\n    \"msg\": \"数据未上链\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626764113794,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001024952\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"af232a3176be2c0ba1f2efb226d4bd481dfe2a1b4a37df80a49785eec95ab833\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+      } ],
+      "uid" : "a9336f98b62de86920c314e72d46b295"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

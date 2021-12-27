@@ -1,0 +1,68 @@
+{
+  "uid" : "86085f78f2d44211",
+  "name" : "test_data_check_error[SJHY_024-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d5fc836526c9b2a3e2e7aad5f4eead8e0ca021382200f9329b5e7752df5fb2ec\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0g\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626770859932,\n    \"success\": false\n}]",
+  "fullName" : "testcase.test_openApi.TestOpenAPI#test_data_check_error",
+  "historyId" : "60ac517110c49e43facb9a9fac370165",
+  "time" : {
+    "start" : 1627020640478,
+    "stop" : 1627020641154,
+    "duration" : 676
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "数据核验-异常流"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_openApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOpenAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5UFTAI3"
+  }, {
+    "name" : "thread",
+    "value" : "14072-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_openApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseNum",
+    "value" : "'SJHY_024'"
+  }, {
+    "name" : "expData",
+    "value" : "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626770859932,\n    \"success\": false\n}'"
+  }, {
+    "name" : "inData",
+    "value" : "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d5fc836526c9b2a3e2e7aad5f4eead8e0ca021382200f9329b5e7752df5fb2ec\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0g\",\n    \"clusterId\": 60\n}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "86085f78f2d44211.json",
+  "parameterValues" : [ "'SJHY_024'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626770859932,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d5fc836526c9b2a3e2e7aad5f4eead8e0ca021382200f9329b5e7752df5fb2ec\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0g\",\n    \"clusterId\": 60\n}'" ]
+}

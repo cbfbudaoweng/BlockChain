@@ -1,0 +1,2394 @@
+{
+  "9e46512ff1a5564e30908e3b420239d0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60d2adaea2c54dca",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:92: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:93: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:94: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020598843,
+        "stop" : 1627020598807,
+        "duration" : -36
+      }
+    } ]
+  },
+  "8711f284ea5fd85640da26eb2a30f2a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e60650e77a544371",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020595485,
+        "stop" : 1627020595944,
+        "duration" : 459
+      }
+    } ]
+  },
+  "03b7978815e56fd08f906c913fcfb361" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7363799d5070837",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020604477,
+        "stop" : 1627020605041,
+        "duration" : 564
+      }
+    } ]
+  },
+  "621e744b92936759f25c9bd50103f049" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2ba3d12e748e83c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020616074,
+        "stop" : 1627020616638,
+        "duration" : 564
+      }
+    } ]
+  },
+  "26f8855bffe0b6a903532843dab808a7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f0d22aee14f8633a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020611934,
+        "stop" : 1627020612500,
+        "duration" : 566
+      }
+    } ]
+  },
+  "50ec009c56cc10a3f20d4e1ab833a10b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf0a235b287baef2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020644730,
+        "stop" : 1627020645428,
+        "duration" : 698
+      }
+    } ]
+  },
+  "46ae0f463b5220a3206fb4595a4b48e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc8d64e673488476",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020613753,
+        "stop" : 1627020614286,
+        "duration" : 533
+      }
+    } ]
+  },
+  "a91e2e0f411b35ecd26ef82ef1f79f0e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf65aedcaa092738",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020606125,
+        "stop" : 1627020606733,
+        "duration" : 608
+      }
+    } ]
+  },
+  "46f6f9418d901a45b826cf26a15fd127" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cea7b02d6e64d631",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020607890,
+        "stop" : 1627020608406,
+        "duration" : 516
+      }
+    } ]
+  },
+  "a606f70086f31ac1effe5c563f124923" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3427194cff5aa3f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020609629,
+        "stop" : 1627020610166,
+        "duration" : 537
+      }
+    } ]
+  },
+  "1cc48274ce70dc059a143e71387599e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7735cc837d4ad735",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020613157,
+        "stop" : 1627020613719,
+        "duration" : 562
+      }
+    } ]
+  },
+  "17d7df3dcae9212c1498c417b84b66a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2611929c4b11bade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020591225,
+        "stop" : 1627020591637,
+        "duration" : 412
+      }
+    } ]
+  },
+  "c9e49ef50d5898c8bcd5ac53c0711471" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11f8c92e0375b952",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020647669,
+        "stop" : 1627020648363,
+        "duration" : 694
+      }
+    } ]
+  },
+  "d59f26159f03b2203a501ee090911ea1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed251a1c45e2284",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020630534,
+        "stop" : 1627020631393,
+        "duration" : 859
+      }
+    } ]
+  },
+  "97982f3e3ef3f6120153d5612bcee3d6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "96ecc754fda2c98a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020650567,
+        "stop" : 1627020651248,
+        "duration" : 681
+      }
+    } ]
+  },
+  "eebe2a86a537bc3b018cbcc166882181" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f6df5eb3bd9c4c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020635590,
+        "stop" : 1627020636238,
+        "duration" : 648
+      }
+    } ]
+  },
+  "76eecf90a0b07c2d142bac8254dcd4b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d7967573684751a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020589826,
+        "stop" : 1627020590270,
+        "duration" : 444
+      }
+    } ]
+  },
+  "738c98fc64a41d0e20515b03a24adf31" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e31f6325ae132157",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020614913,
+        "stop" : 1627020615471,
+        "duration" : 558
+      }
+    } ]
+  },
+  "b443858a6591a19870c6cde19d26ac3d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64e0a3e434ca19a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020631425,
+        "stop" : 1627020632140,
+        "duration" : 715
+      }
+    } ]
+  },
+  "7b6009c27c5a628ef3533cc1a8fea81c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32de67bf8cf0599b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020619021,
+        "stop" : 1627020619595,
+        "duration" : 574
+      }
+    } ]
+  },
+  "d1c1e8a6bc7444a0e6439e31e283c98a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2ba60ca93bf2bd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020585302,
+        "stop" : 1627020585705,
+        "duration" : 403
+      }
+    } ]
+  },
+  "95cf8e5cf80a293e3d055502007babfb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c3ae91063eda0ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020594046,
+        "stop" : 1627020594491,
+        "duration" : 445
+      }
+    } ]
+  },
+  "9ff558d4eb9757241fc5deb40cd1d25f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15f4459195340b4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020611342,
+        "stop" : 1627020611899,
+        "duration" : 557
+      }
+    } ]
+  },
+  "b1f2cc17c4f3739bc8e1a80bc76548d2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95b11f9901192f9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020587517,
+        "stop" : 1627020587929,
+        "duration" : 412
+      }
+    } ]
+  },
+  "85d2b210bc6ec35256520eb744cfffe5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a41fefbae699f9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020632181,
+        "stop" : 1627020632832,
+        "duration" : 651
+      }
+    } ]
+  },
+  "b2cb7d5e87d8b27ec00be039659e3368" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d83fcc3f557e1526",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020646202,
+        "stop" : 1627020646913,
+        "duration" : 711
+      }
+    } ]
+  },
+  "bc6b172261f67e256b44619aa1d38cdd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca2892d4db769d3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020606773,
+        "stop" : 1627020607283,
+        "duration" : 510
+      }
+    } ]
+  },
+  "9570c8205cbea9a93121ee42dd64063a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9fc21b21889015e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020592641,
+        "stop" : 1627020593087,
+        "duration" : 446
+      }
+    } ]
+  },
+  "257082ba8114359804f01c7022ec6e77" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d40750695ca93203",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020588446,
+        "stop" : 1627020588876,
+        "duration" : 430
+      }
+    } ]
+  },
+  "33476601aeb9503bafbcd7d52b85ed70" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59321352c7afb7dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020642625,
+        "stop" : 1627020643295,
+        "duration" : 670
+      }
+    } ]
+  },
+  "368dc1b1e50b4a0ddbbb70777cef94f5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b54bc2b16dc33e5",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:56: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:57: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:58: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020573682,
+        "stop" : 1627020573642,
+        "duration" : -40
+      }
+    } ]
+  },
+  "3f484c7ca6303d5d8d47662b53c2701b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6591d30320a263ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020625897,
+        "stop" : 1627020626628,
+        "duration" : 731
+      }
+    } ]
+  },
+  "f943c39b5d8089ab6018cd32dfd2e6ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a050f3d4d4a59356",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020649830,
+        "stop" : 1627020650536,
+        "duration" : 706
+      }
+    } ]
+  },
+  "99d918b8f0be4c9467c5816160cba4d7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8ed4ab115f8c040",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020592145,
+        "stop" : 1627020592597,
+        "duration" : 452
+      }
+    } ]
+  },
+  "c83e96bc16aa5b88ad5bccf3e5e8f690" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea8fafbb9d9bbbd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020616669,
+        "stop" : 1627020617204,
+        "duration" : 535
+      }
+    } ]
+  },
+  "1edfaf0f5732c003707b436ada244c66" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11dbfd2a24084d31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020622077,
+        "stop" : 1627020622675,
+        "duration" : 598
+      }
+    } ]
+  },
+  "a68709ad46a754546d09c4cf882051cd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ddebd91148dc754",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020605078,
+        "stop" : 1627020605558,
+        "duration" : 480
+      }
+    } ]
+  },
+  "ecf56b1c8d381bd8fbc9591a88fd2561" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "92a3665bec92b32e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020648382,
+        "stop" : 1627020649064,
+        "duration" : 682
+      }
+    } ]
+  },
+  "86785892042d517932366694b2aec585" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d4e4d512e33e7b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020633529,
+        "stop" : 1627020634240,
+        "duration" : 711
+      }
+    } ]
+  },
+  "4bc79fb17977cf0e9c350fb6ba0e342a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "67a8e00617887a78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020637657,
+        "stop" : 1627020638322,
+        "duration" : 665
+      }
+    } ]
+  },
+  "3a34256c7eb474bcbcbf25489e5702f8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5416dccc58aeb050",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020617834,
+        "stop" : 1627020618405,
+        "duration" : 571
+      }
+    } ]
+  },
+  "fea5e46fa5876012f2555f2010cc117f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ae050961c347a00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020601029,
+        "stop" : 1627020601664,
+        "duration" : 635
+      }
+    } ]
+  },
+  "e4ca74d5c2b194d6aee4176efb67758e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f1251708387b90b6",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:56: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:57: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:58: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020572809,
+        "stop" : 1627020572790,
+        "duration" : -19
+      }
+    } ]
+  },
+  "bf4eee7ab530273df579714e06c07530" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "abce8df97718b785",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020617246,
+        "stop" : 1627020617811,
+        "duration" : 565
+      }
+    } ]
+  },
+  "3f8aa969e373c97b6dd11210de97d632" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69a247132edb31af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020636266,
+        "stop" : 1627020636914,
+        "duration" : 648
+      }
+    } ]
+  },
+  "dd5982b8b33c1ccf93a281d7ecc0db33" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "249ce7d0e552b2a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020608437,
+        "stop" : 1627020609004,
+        "duration" : 567
+      }
+    } ]
+  },
+  "3072c65508d6762f195f1741078e3637" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b65643f7f5fb54ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020634906,
+        "stop" : 1627020635561,
+        "duration" : 655
+      }
+    } ]
+  },
+  "38091c25f083d48e211dfd6a9aff7401" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b9ef441ec086b73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020618440,
+        "stop" : 1627020619002,
+        "duration" : 562
+      }
+    } ]
+  },
+  "b15f44740c78ceb1053cea33a5743f31" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e5100f914461f9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020614321,
+        "stop" : 1627020614875,
+        "duration" : 554
+      }
+    } ]
+  },
+  "549f91e5be4d89c23dcc24fe24da413e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d94217cbf7f7566c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020591677,
+        "stop" : 1627020592108,
+        "duration" : 431
+      }
+    } ]
+  },
+  "f8f5ceab6dd8e427cdfa0ae3987d2569" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "908bacb9ffb4744e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020620804,
+        "stop" : 1627020621392,
+        "duration" : 588
+      }
+    } ]
+  },
+  "8450b0d6db6bb57604dfb084f887ec55" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd0add823e542ec2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020581897,
+        "stop" : 1627020582465,
+        "duration" : 568
+      }
+    } ]
+  },
+  "c71c35001ce17cb698b8e2392bd01c78" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f1589240aa0680db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020590313,
+        "stop" : 1627020590739,
+        "duration" : 426
+      }
+    } ]
+  },
+  "b7ebbea3c011a7f524560390169fb42d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f34cb78821965e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020595000,
+        "stop" : 1627020595456,
+        "duration" : 456
+      }
+    } ]
+  },
+  "f2d34bb4f4282bb40dfd0cbf8528db3c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cfda949ab237f77",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:56: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:57: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:58: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020577513,
+        "stop" : 1627020577478,
+        "duration" : -35
+      }
+    } ]
+  },
+  "7b2fc84d50349a34d09f0b2a6c18eddd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81a5f4fb2d6fd36c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020651282,
+        "stop" : 1627020651974,
+        "duration" : 692
+      }
+    } ]
+  },
+  "ffb0cda0675afa83d36757db2d13d0d2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b66a53a472213b64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020644001,
+        "stop" : 1627020644696,
+        "duration" : 695
+      }
+    } ]
+  },
+  "0e84605452cad39f01e82e43860f8cc5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4bf9f6c893200f15",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:128: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:129: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:130: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020629114,
+        "stop" : 1627020629094,
+        "duration" : -20
+      }
+    } ]
+  },
+  "0ebe6f2da86be1ae648e3534ad04516b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e724af40c647e306",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020622707,
+        "stop" : 1627020623298,
+        "duration" : 591
+      }
+    } ]
+  },
+  "f2fb57017e62297c9348cea3c8b68a42" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37f865b4179bbfd5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020639770,
+        "stop" : 1627020640441,
+        "duration" : 671
+      }
+    } ]
+  },
+  "a30fbeb696c71681cbeb1a6a9d63d7ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "845eefb7c86cb8b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020583949,
+        "stop" : 1627020584361,
+        "duration" : 412
+      }
+    } ]
+  },
+  "1d4629a14433cb92bedc559af0bdeef8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d8e57e8f2ddc02e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020652746,
+        "stop" : 1627020653456,
+        "duration" : 710
+      }
+    } ]
+  },
+  "658442f5671ccf432722a557f2dedb85" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5c6b7107c7ae902",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020610186,
+        "stop" : 1627020610747,
+        "duration" : 561
+      }
+    } ]
+  },
+  "799577032c0fcdf7f7b8cb18ee867b33" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc6ca09b36d75bbe",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:128: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:129: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:130: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020623325,
+        "stop" : 1627020623301,
+        "duration" : -24
+      }
+    } ]
+  },
+  "204b9758d403e50abb64175546abd179" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e18fb4790b53b4a7",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:56: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:57: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:58: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020580801,
+        "stop" : 1627020580774,
+        "duration" : -27
+      }
+    } ]
+  },
+  "87313e916f39f12c7dd1817bb41d57ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d2ca0c32999431b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020578097,
+        "stop" : 1627020580771,
+        "duration" : 2674
+      }
+    } ]
+  },
+  "9a1f003d3c28c126ad9b649d42d9213f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c03980cc7590556",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020586616,
+        "stop" : 1627020587026,
+        "duration" : 410
+      }
+    } ]
+  },
+  "05cf89ae9fbb328e39f6efc1b8e43404" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9e167123eb82e84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020583009,
+        "stop" : 1627020583471,
+        "duration" : 462
+      }
+    } ]
+  },
+  "291a60daa5f86ab6fc49d060728a9abe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a9b29440ae9494a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020641190,
+        "stop" : 1627020641881,
+        "duration" : 691
+      }
+    } ]
+  },
+  "833390de82a81691d2b22ae718008b46" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "699b847bdf71aac2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020610763,
+        "stop" : 1627020611303,
+        "duration" : 540
+      }
+    } ]
+  },
+  "e38d9e14076a3b73fcabf4442a4f3911" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88c01b1ac927785b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020582486,
+        "stop" : 1627020582969,
+        "duration" : 483
+      }
+    } ]
+  },
+  "2992d7fe8962f8b2553ce84da56db108" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58afaef74941cb60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020587957,
+        "stop" : 1627020588406,
+        "duration" : 449
+      }
+    } ]
+  },
+  "1cc6d3798f96bc9d1a3dadde22f09007" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa337a86ba111c5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020587065,
+        "stop" : 1627020587495,
+        "duration" : 430
+      }
+    } ]
+  },
+  "0efa3c0788148f35cac312cdd2f6dae5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f4b10d23b898374",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020584890,
+        "stop" : 1627020585282,
+        "duration" : 392
+      }
+    } ]
+  },
+  "60cf6573e4e7ab39750252cb230032c1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc993028f0cfc50c",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:92: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:93: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:94: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020602421,
+        "stop" : 1627020602389,
+        "duration" : -32
+      }
+    } ]
+  },
+  "40578c112a03adb787a2e7051e0addd0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7190934a7e5c876c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020609038,
+        "stop" : 1627020609591,
+        "duration" : 553
+      }
+    } ]
+  },
+  "bef7173d0249d8d4b569e7bd61f81c11" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a7846daa0b0d92f",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:92: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:93: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:94: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020600181,
+        "stop" : 1627020600165,
+        "duration" : -16
+      }
+    } ]
+  },
+  "2054794fcb8156cc9056e38f95c8e186" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a7ecbd60f38b9cef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020636950,
+        "stop" : 1627020637620,
+        "duration" : 670
+      }
+    } ]
+  },
+  "7937b33bf51dc758b6f5e1bd51b9c052" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5489785105928c3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020619617,
+        "stop" : 1627020620165,
+        "duration" : 548
+      }
+    } ]
+  },
+  "3e17e9817c600f243d3bfba3206f79af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a01c538b91706dee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020638341,
+        "stop" : 1627020639011,
+        "duration" : 670
+      }
+    } ]
+  },
+  "4caf934feb0d5f775d80617992996a97" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee86d33f620f9341",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020590761,
+        "stop" : 1627020591187,
+        "duration" : 426
+      }
+    } ]
+  },
+  "e8726d0c367a773da394364186fd5608" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "312315bb61a3e9da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020574612,
+        "stop" : 1627020577475,
+        "duration" : 2863
+      }
+    } ]
+  },
+  "a4de1038c6c02ef591b0d38cad0eaec5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86e587a61dd8d5bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020615491,
+        "stop" : 1627020616044,
+        "duration" : 553
+      }
+    } ]
+  },
+  "f4ed2f69c8eb9272775f5ff58873fe9e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c311b62d07043c15",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:128: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:129: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:130: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020626653,
+        "stop" : 1627020626631,
+        "duration" : -22
+      }
+    } ]
+  },
+  "7f8d202d876154c74500e7e08e45af7c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d1a667fa72a87cb6",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:128: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:129: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:130: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020628234,
+        "stop" : 1627020628209,
+        "duration" : -25
+      }
+    } ]
+  },
+  "01ef3644f345f70e5c4fd9477d8be82c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c3da021ba20478f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020627406,
+        "stop" : 1627020628206,
+        "duration" : 800
+      }
+    } ]
+  },
+  "2f872cee3164a448641892f58022516e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c7234e2b42740b9",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:92: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:93: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:94: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020597417,
+        "stop" : 1627020597391,
+        "duration" : -26
+      }
+    } ]
+  },
+  "fd4304b12584ed0aaf3eb3bb494af637" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a63c9611e8ef3ed0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020588917,
+        "stop" : 1627020589336,
+        "duration" : 419
+      }
+    } ]
+  },
+  "29b7d6976ec995d4b004976feb0dec78" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2892824c7aca621b",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:56: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:57: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:58: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020574145,
+        "stop" : 1627020574117,
+        "duration" : -28
+      }
+    } ]
+  },
+  "ac95c48c06e8c8eb45d2774204ddaf98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "545e431544711a3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020599549,
+        "stop" : 1627020600163,
+        "duration" : 614
+      }
+    } ]
+  },
+  "214adfe7f45be30e90486318b06d1ed7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "729932fc3d259060",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020621408,
+        "stop" : 1627020622041,
+        "duration" : 633
+      }
+    } ]
+  },
+  "f8bf5f767401b0f1a850e824e79afed2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e64c1027de3a9dc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020629814,
+        "stop" : 1627020630514,
+        "duration" : 700
+      }
+    } ]
+  },
+  "77ab7737ca01db799cd0376544abdb2c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "44a8e4198c4ae2d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020652006,
+        "stop" : 1627020652705,
+        "duration" : 699
+      }
+    } ]
+  },
+  "3f70296d0a0396734e6944b7a45325b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e4156eab02c9448",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020589358,
+        "stop" : 1627020589797,
+        "duration" : 439
+      }
+    } ]
+  },
+  "0d7f673ad508560914f1b194977a9520" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c00994bf294cb8f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020634261,
+        "stop" : 1627020634886,
+        "duration" : 625
+      }
+    } ]
+  },
+  "4d190825a75742303d93ac80a161eea2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8fdb020012ff42b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020593589,
+        "stop" : 1627020594009,
+        "duration" : 420
+      }
+    } ]
+  },
+  "91c965b543e6aa020c38ff0b2fb4a27a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "359a36ea56a1a1a3",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n2 Failed Assumptions:\n\ntest_openApi.py:128: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:129: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020624957,
+        "stop" : 1627020624929,
+        "duration" : -28
+      }
+    } ]
+  },
+  "880cd9007f7513d49baa109faec511a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c21de95684e47893",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020596923,
+        "stop" : 1627020597388,
+        "duration" : 465
+      }
+    } ]
+  },
+  "e8b487259f23f591a44e04cf989ab13e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "336c6a36d3eb8272",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020593122,
+        "stop" : 1627020593570,
+        "duration" : 448
+      }
+    } ]
+  },
+  "af29fd41d4f7a7466b9f2a455d3c9e23" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "25e5bf38a4052c49",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:92: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:93: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:94: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020598105,
+        "stop" : 1627020598076,
+        "duration" : -29
+      }
+    } ]
+  },
+  "165bd44f2d71047c50e1ea9963a5c85a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f863416caeca274",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020620193,
+        "stop" : 1627020620779,
+        "duration" : 586
+      }
+    } ]
+  },
+  "d284f49958afce640c9786ee657d26c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f89b5bb5db193f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020607326,
+        "stop" : 1627020607849,
+        "duration" : 523
+      }
+    } ]
+  },
+  "d54cc9f9604e39a28d5b1f5832d29026" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c1862259e1418a8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020596458,
+        "stop" : 1627020596901,
+        "duration" : 443
+      }
+    } ]
+  },
+  "60ac517110c49e43facb9a9fac370165" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86085f78f2d44211",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020640478,
+        "stop" : 1627020641154,
+        "duration" : 676
+      }
+    } ]
+  },
+  "2f6c3f122776170ab24f6897b71a480e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4afb1f5845bf9fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020586185,
+        "stop" : 1627020586595,
+        "duration" : 410
+      }
+    } ]
+  },
+  "bae3d6394638ecddb62675fe7356cc5d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e267098646d86f0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020649102,
+        "stop" : 1627020649793,
+        "duration" : 691
+      }
+    } ]
+  },
+  "dba66f268b65d858e1605d57dd17cb2a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7d48ef67dab3e70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020595973,
+        "stop" : 1627020596434,
+        "duration" : 461
+      }
+    } ]
+  },
+  "1f59ade2689b3d0760aafbab5a616b82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2534c32f583b661b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020641914,
+        "stop" : 1627020642597,
+        "duration" : 683
+      }
+    } ]
+  },
+  "79350d19ab59a00ed70287acd00b6bae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d5327b2fe350928",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020612541,
+        "stop" : 1627020613135,
+        "duration" : 594
+      }
+    } ]
+  },
+  "79ef5909fd23889d58ce9a10464f3084" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f85da7d68887193",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020585745,
+        "stop" : 1627020586151,
+        "duration" : 406
+      }
+    } ]
+  },
+  "363a260bef05757fd90399955c0e3c4d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af2bdca7bfbb5d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020583493,
+        "stop" : 1627020583916,
+        "duration" : 423
+      }
+    } ]
+  },
+  "75c861a8d85d3c7b2b6526b4c1177ee5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8b169f5c6fc4f03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020646950,
+        "stop" : 1627020647648,
+        "duration" : 698
+      }
+    } ]
+  },
+  "6a16e64e4e2b32e5924f1b142fda9e3e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba9eb00030929454",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020581405,
+        "stop" : 1627020581858,
+        "duration" : 453
+      }
+    } ]
+  },
+  "505b81d9e296c3bb0bf999a5e59c6dbd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41f2debc45364f4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020643330,
+        "stop" : 1627020643981,
+        "duration" : 651
+      }
+    } ]
+  },
+  "f764d2cb8f4a5975f437ca8d58f995d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c917c270791395c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020603113,
+        "stop" : 1627020603677,
+        "duration" : 564
+      }
+    } ]
+  },
+  "5097e7e94c0f59ff2dbf17d1b1e52fa2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9515b0f9bd894d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020653485,
+        "stop" : 1627020654195,
+        "duration" : 710
+      }
+    } ]
+  },
+  "f593d5448dafe0c1937b41d2c9291464" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0370af3311c4fee",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:128: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:129: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:130: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020624037,
+        "stop" : 1627020624020,
+        "duration" : -17
+      }
+    } ]
+  },
+  "281a9bb03a915a9f0e1926413b7bf607" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be496d035471ba73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020594513,
+        "stop" : 1627020594964,
+        "duration" : 451
+      }
+    } ]
+  },
+  "c7251be667a4a576ff5c449b746dfa26" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfe82e95df292f65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020632858,
+        "stop" : 1627020633490,
+        "duration" : 632
+      }
+    } ]
+  },
+  "44149b317ce834e03a8c9b6dcc9c19d0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "113c88860df78085",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:92: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:93: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:94: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+      "time" : {
+        "start" : 1627020601699,
+        "stop" : 1627020601666,
+        "duration" : -33
+      }
+    } ]
+  },
+  "6e7c904e634054c549e5bc31331f2e18" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "607b3d5f5d89429d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020584385,
+        "stop" : 1627020584871,
+        "duration" : 486
+      }
+    } ]
+  },
+  "298224ec2c4798d52c2a5f0664c37da8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "284170f991cb2674",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020639046,
+        "stop" : 1627020639728,
+        "duration" : 682
+      }
+    } ]
+  },
+  "5ae9110a9b2a19d58ea23f1303cf1b64" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c1736f33466c9d59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020605585,
+        "stop" : 1627020606102,
+        "duration" : 517
+      }
+    } ]
+  },
+  "b1b10369c6bdbc922e8097db27439563" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "744fcbfaba6d5cb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020603709,
+        "stop" : 1627020604440,
+        "duration" : 731
+      }
+    } ]
+  },
+  "dbb73888ae08bb2ed61f59d9427fa5d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "72c7c439f4922d10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020645461,
+        "stop" : 1627020646183,
+        "duration" : 722
+      }
+    } ]
+  }
+}

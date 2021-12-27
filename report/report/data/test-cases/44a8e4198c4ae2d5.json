@@ -1,0 +1,68 @@
+{
+  "uid" : "44a8e4198c4ae2d5",
+  "name" : "test_data_check_error[SJHY_040-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": [\n            \"应用ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773743616,\n    \"success\": false\n}]",
+  "fullName" : "testcase.test_openApi.TestOpenAPI#test_data_check_error[SJHY_040-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": ",
+  "historyId" : "77ab7737ca01db799cd0376544abdb2c",
+  "time" : {
+    "start" : 1627020652006,
+    "stop" : 1627020652705,
+    "duration" : 699
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "数据核验-异常流"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_openApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOpenAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5UFTAI3"
+  }, {
+    "name" : "thread",
+    "value" : "14072-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_openApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseNum",
+    "value" : "'SJHY_040'"
+  }, {
+    "name" : "expData",
+    "value" : "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": [\n            \"应用ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773743616,\n    \"success\": false\n}'"
+  }, {
+    "name" : "inData",
+    "value" : "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"clusterId\": 60\n}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44a8e4198c4ae2d5.json",
+  "parameterValues" : [ "'SJHY_040'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": [\n            \"应用ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773743616,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"clusterId\": 60\n}'" ]
+}

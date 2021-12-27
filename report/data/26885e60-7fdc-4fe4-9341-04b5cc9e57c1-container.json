@@ -1,0 +1,1 @@
+{"uuid": "17e1b74a-4f9a-49fd-9b26-745d8c595571", "befores": [{"name": "xunit_setup_method_fixture_TestOpenAPI", "status": "passed", "start": 1627020589800, "stop": 1627020589826}], "afters": [{"name": "xunit_setup_method_fixture_TestOpenAPI::0", "status": "passed", "start": 1627020590272, "stop": 1627020590272}], "start": 1627020589800, "stop": 1627020590272}

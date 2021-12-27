@@ -1,0 +1,70 @@
+{
+  "total" : 6,
+  "items" : [ {
+    "uid" : "38ca781e051ddfac4424713d9d15bd48",
+    "name" : "数据查询-正常流",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "cdc22c4ccf4f7156f99949dad14fe841",
+    "name" : "数据核验-正常流",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
+    "uid" : "b17e7340c0fd31cead7fdd8a5509f56a",
+    "name" : "数据上链-正常流",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "bd0603886dda8c866e4eaa699ae2704f",
+    "name" : "数据上链-异常流",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 34,
+      "unknown" : 0,
+      "total" : 34
+    }
+  }, {
+    "uid" : "8b4945cc5fdfbc74012a18f788901654",
+    "name" : "数据查询-异常流",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 34,
+      "unknown" : 0,
+      "total" : 34
+    }
+  }, {
+    "uid" : "7bc0897bd50c8402ed7333e2c484fd38",
+    "name" : "数据核验-异常流",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 34,
+      "unknown" : 0,
+      "total" : 34
+    }
+  } ]
+}

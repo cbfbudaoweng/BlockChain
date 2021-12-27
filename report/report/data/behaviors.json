@@ -1,0 +1,1654 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "数据上链-正常流",
+    "children" : [ {
+      "name" : "test_data_save_right[SJSL_001-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"a8dd2432b26c3d30a9254b97d60dd8199f15650bb282a108e179865165ea5a5e\"\n    },\n    \"timestamp\": 1626763727326,\n    \"success\": true\n}]",
+      "uid" : "f1251708387b90b6",
+      "parentUid" : "b17e7340c0fd31cead7fdd8a5509f56a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020572809,
+        "stop" : 1627020572790,
+        "duration" : -19
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_001'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"a8dd2432b26c3d30a9254b97d60dd8199f15650bb282a108e179865165ea5a5e\"\n    },\n    \"timestamp\": 1626763727326,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_right[SJSL_002-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"75434c80cc54fbb2a6a83130b152e649b4f63dc6a12ae7996ed1aa91871d275f\"\n    },\n    \"timestamp\": 1626763865025,\n    \"success\": true\n}]",
+      "uid" : "2b54bc2b16dc33e5",
+      "parentUid" : "b17e7340c0fd31cead7fdd8a5509f56a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020573682,
+        "stop" : 1627020573642,
+        "duration" : -40
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_002'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"75434c80cc54fbb2a6a83130b152e649b4f63dc6a12ae7996ed1aa91871d275f\"\n    },\n    \"timestamp\": 1626763865025,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_right[SJSL_003-{ \"data\":{\"idcardno\":\"110105200001021452\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d8d1d2f27030ab36d69b155bb0825189e3b55c1873e64b122dde7c0df140acd4\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"48ca10e36edd138ff6d802eaa14c44323cd46c90a8186445840409c6f04c1c5e\"\n    },\n    \"timestamp\": 1626764041829,\n    \"success\": true\n}]",
+      "uid" : "2892824c7aca621b",
+      "parentUid" : "b17e7340c0fd31cead7fdd8a5509f56a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020574145,
+        "stop" : 1627020574117,
+        "duration" : -28
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_003'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"48ca10e36edd138ff6d802eaa14c44323cd46c90a8186445840409c6f04c1c5e\"\n    },\n    \"timestamp\": 1626764041829,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001021452\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d8d1d2f27030ab36d69b155bb0825189e3b55c1873e64b122dde7c0df140acd4\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_right[SJSL_004-{ \"data\":{\"idcardno\":\"110105200101023949\",\"sex\":\"女\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"b6ebc47de4d36111a4da21cb700efcee2a84018e44bdf83b114297414ec55e55\",\n    \"legerId\": 48,\n    \"chainId\":50,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"8723bc7ba4060133551a54d9a513bfdbd9fb4429346aa51abe3efa1a7e99faa2\"\n    },\n    \"timestamp\": 1626764950526,\n    \"success\": true\n}]",
+      "uid" : "312315bb61a3e9da",
+      "parentUid" : "b17e7340c0fd31cead7fdd8a5509f56a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020574612,
+        "stop" : 1627020577475,
+        "duration" : 2863
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_004'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"8723bc7ba4060133551a54d9a513bfdbd9fb4429346aa51abe3efa1a7e99faa2\"\n    },\n    \"timestamp\": 1626764950526,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023949\",\"sex\":\"女\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"b6ebc47de4d36111a4da21cb700efcee2a84018e44bdf83b114297414ec55e55\",\n    \"legerId\": 48,\n    \"chainId\":50,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_save_right[SJSL_005-{ \"data\":{\"ybcode\":\"zhangsan001\",\"sex\":\"男\",\"name\":\"张三\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4fd2fe34a2670aee7167b3e74a365cdb70310f60caf85ebbbb294e838885f4ce\",\n    \"legerId\": 49,\n    \"chainId\":52,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"c2ea5a4e85a74e199c29013e1e1ad5546e4325f24a3459c5f8165f16d60abe97\"\n    },\n    \"timestamp\": 1626765289832,\n    \"success\": true\n}]",
+      "uid" : "6cfda949ab237f77",
+      "parentUid" : "b17e7340c0fd31cead7fdd8a5509f56a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020577513,
+        "stop" : 1627020577478,
+        "duration" : -35
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_005'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"c2ea5a4e85a74e199c29013e1e1ad5546e4325f24a3459c5f8165f16d60abe97\"\n    },\n    \"timestamp\": 1626765289832,\n    \"success\": true\n}'", "'{ \"data\":{\"ybcode\":\"zhangsan001\",\"sex\":\"男\",\"name\":\"张三\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4fd2fe34a2670aee7167b3e74a365cdb70310f60caf85ebbbb294e838885f4ce\",\n    \"legerId\": 49,\n    \"chainId\":52,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_save_right[SJSL_006-{ \"data\":{\"ybcode\":\"lisi001\",\"sex\":\"男\",\"name\":\"李四\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"59b27b58b6fd4633ae9155bb071db9e9b44d53d7b695b44c02a65e4bd3a7076e\",\n    \"legerId\": 49,\n    \"chainId\":53,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"612ab2e736964e25663ae2e3fd836340bfcaaa1b84fb368f6739e82473b3f801\"\n    },\n    \"timestamp\": 1626765590444,\n    \"success\": true\n}]",
+      "uid" : "6d2ca0c32999431b",
+      "parentUid" : "b17e7340c0fd31cead7fdd8a5509f56a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020578097,
+        "stop" : 1627020580771,
+        "duration" : 2674
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_006'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"612ab2e736964e25663ae2e3fd836340bfcaaa1b84fb368f6739e82473b3f801\"\n    },\n    \"timestamp\": 1626765590444,\n    \"success\": true\n}'", "'{ \"data\":{\"ybcode\":\"lisi001\",\"sex\":\"男\",\"name\":\"李四\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"59b27b58b6fd4633ae9155bb071db9e9b44d53d7b695b44c02a65e4bd3a7076e\",\n    \"legerId\": 49,\n    \"chainId\":53,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_save_right[SJSL_007-{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7acae9464c29f290fd0929dd47c5aaf159280eb36582deedc79d9cebda5cbf78\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"b77897398b70f2ca9e76cecb569df8b4ee5aa9039a5b29b9c278a689c8218d55\"\n    },\n    \"timestamp\": 1626765831650,\n    \"success\": true\n}]",
+      "uid" : "e18fb4790b53b4a7",
+      "parentUid" : "b17e7340c0fd31cead7fdd8a5509f56a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020580801,
+        "stop" : 1627020580774,
+        "duration" : -27
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_007'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": \"b77897398b70f2ca9e76cecb569df8b4ee5aa9039a5b29b9c278a689c8218d55\"\n    },\n    \"timestamp\": 1626765831650,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7acae9464c29f290fd0929dd47c5aaf159280eb36582deedc79d9cebda5cbf78\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    } ],
+    "uid" : "b17e7340c0fd31cead7fdd8a5509f56a"
+  }, {
+    "name" : "数据上链-异常流",
+    "children" : [ {
+      "name" : "test_data_save_error[SJSL_008-{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"6f98cbaac1a2653f31c3b64f9afc392eba3e9b04b38d55df37b87408795aff99\",\n    \"legerId\": 51,\n    \"chainId\":54,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 0,\n    \"msg\": \"合约账本必须有唯一Key\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626766167518,\n    \"success\": false\n}]",
+      "uid" : "ba9eb00030929454",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020581405,
+        "stop" : 1627020581858,
+        "duration" : 453
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_008'", "'{\n    \"code\": 0,\n    \"msg\": \"合约账本必须有唯一Key\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626766167518,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"6f98cbaac1a2653f31c3b64f9afc392eba3e9b04b38d55df37b87408795aff99\",\n    \"legerId\": 51,\n    \"chainId\":54,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_009-{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7c3a6b0a001171b38b0be082147c680457d3fb6b39a9c50e019417da819c86e8\",\n    \"legerId\": 50,\n    \"chainId\":51,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 62\n}-{\n    \"code\": 500,\n    \"msg\": \"合约执行失败\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626766384467,\n    \"success\": false\n}]",
+      "uid" : "dd0add823e542ec2",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020581897,
+        "stop" : 1627020582465,
+        "duration" : 568
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_009'", "'{\n    \"code\": 500,\n    \"msg\": \"合约执行失败\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626766384467,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7c3a6b0a001171b38b0be082147c680457d3fb6b39a9c50e019417da819c86e8\",\n    \"legerId\": 50,\n    \"chainId\":51,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 62\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_010-{ \"data\":{\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"47d6c30e183c0311bcb6fd4938f1c51001830e3cafc4ab146e9bb4c1435e6382\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 0,\n    \"msg\": \"缺少参数：body.idcardno\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626766840082,\n    \"success\": false\n}]",
+      "uid" : "88c01b1ac927785b",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020582486,
+        "stop" : 1627020582969,
+        "duration" : 483
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_010'", "'{\n    \"code\": 0,\n    \"msg\": \"缺少参数：body.idcardno\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626766840082,\n    \"success\": false\n}'", "'{ \"data\":{\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"47d6c30e183c0311bcb6fd4938f1c51001830e3cafc4ab146e9bb4c1435e6382\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_011-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 0,\n    \"msg\": \"缺少参数：body.birthday\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626766936160,\n    \"success\": false\n}]",
+      "uid" : "b9e167123eb82e84",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020583009,
+        "stop" : 1627020583471,
+        "duration" : 462
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_011'", "'{\n    \"code\": 0,\n    \"msg\": \"缺少参数：body.birthday\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626766936160,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_012-{ \"data\":{\"idcardno\":\"110105200101023201\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"b137353b17236cdcbb1dc642415bba3d6d951a2997067e1fa662c2de1b8321a8\",\n    \"legerId\": 52,\n    \"chainId\":55,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626767581204,\n    \"success\": false\n}]",
+      "uid" : "af2bdca7bfbb5d0c",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020583493,
+        "stop" : 1627020583916,
+        "duration" : 423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_012'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626767581204,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023201\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"b137353b17236cdcbb1dc642415bba3d6d951a2997067e1fa662c2de1b8321a8\",\n    \"legerId\": 52,\n    \"chainId\":55,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_013-{ \"data\":{\"idcardno\":\"110105200101024845\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7b9ff2e32779963985d5e6d057a5e1b0c196f83ab63649e49dff41e87bad2635\",\n    \"legerId\":52,\n    \"chainId\":56,\n    \"appId\": \"nd2GFm\",\n    \"clusterId\": 61\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626767953035,\n    \"success\": false\n}]",
+      "uid" : "845eefb7c86cb8b8",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020583949,
+        "stop" : 1627020584361,
+        "duration" : 412
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_013'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626767953035,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101024845\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7b9ff2e32779963985d5e6d057a5e1b0c196f83ab63649e49dff41e87bad2635\",\n    \"legerId\":52,\n    \"chainId\":56,\n    \"appId\": \"nd2GFm\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_014-{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one387\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"eb0c164981ac3a1026e13eb275db0f3976f046604759eaea9110294b8e04dd1b\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626768593799,\n    \"success\": false\n}]",
+      "uid" : "607b3d5f5d89429d",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020584385,
+        "stop" : 1627020584871,
+        "duration" : 486
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_014'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626768593799,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one387\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"eb0c164981ac3a1026e13eb275db0f3976f046604759eaea9110294b8e04dd1b\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_015-{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874m\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0dc10719475382eba093ac3a8dfcb95202f3c3691a0753c099491e10ec4f1e86\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626768896663,\n    \"success\": false\n}]",
+      "uid" : "8f4b10d23b898374",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020584890,
+        "stop" : 1627020585282,
+        "duration" : 392
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_015'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626768896663,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874m\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0dc10719475382eba093ac3a8dfcb95202f3c3691a0753c099491e10ec4f1e86\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_016-{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1626229198000,\n    \"sign\": \"086a8d3571376c9f574c75c20cd77e62f12a13401bb93c8a7aa203425d5461fa\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626769002324,\n    \"success\": false\n}]",
+      "uid" : "c2ba60ca93bf2bd3",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020585302,
+        "stop" : 1627020585705,
+        "duration" : 403
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_016'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626769002324,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1626229198000,\n    \"sign\": \"086a8d3571376c9f574c75c20cd77e62f12a13401bb93c8a7aa203425d5461fa\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_017-{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626769137730,\n    \"success\": false\n}]",
+      "uid" : "2f85da7d68887193",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020585745,
+        "stop" : 1627020586151,
+        "duration" : 406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_017'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626769137730,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_018-{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"a74adfd2b825f44b3853d39f0e246ef86ee00aeee3188cce15ac302cbcacd2d9\",\n    \"legerId\": 2,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626769301368,\n    \"success\": false\n}]",
+      "uid" : "f4afb1f5845bf9fd",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020586185,
+        "stop" : 1627020586595,
+        "duration" : 410
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_018'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626769301368,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"a74adfd2b825f44b3853d39f0e246ef86ee00aeee3188cce15ac302cbcacd2d9\",\n    \"legerId\": 2,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_019-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7ede925fb2b5fb1a075f6a208504c51449873254b2812cfdbd75c2090569d348\",\n    \"legerId\":100000,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626769752164,\n    \"success\": false\n}]",
+      "uid" : "3c03980cc7590556",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020586616,
+        "stop" : 1627020587026,
+        "duration" : 410
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_019'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626769752164,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7ede925fb2b5fb1a075f6a208504c51449873254b2812cfdbd75c2090569d348\",\n    \"legerId\":100000,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_020-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4ca34ab7b14ee55cb89b0e406f69a4b34f28a3ca84b22036d1f4aa8fb5d695ad\",\n    \"legerId\":48,\n    \"chainId\":54,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626769994875,\n    \"success\": false\n}]",
+      "uid" : "fa337a86ba111c5f",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020587065,
+        "stop" : 1627020587495,
+        "duration" : 430
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_020'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626769994875,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4ca34ab7b14ee55cb89b0e406f69a4b34f28a3ca84b22036d1f4aa8fb5d695ad\",\n    \"legerId\":48,\n    \"chainId\":54,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_021-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"5fa6def7c614a76e481d97c39fc212ef0113ede892c303d809559615434898df\",\n    \"legerId\":48,\n    \"chainId\":100000,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626770416007,\n    \"success\": false\n}]",
+      "uid" : "95b11f9901192f9f",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020587517,
+        "stop" : 1627020587929,
+        "duration" : 412
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_021'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626770416007,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"5fa6def7c614a76e481d97c39fc212ef0113ede892c303d809559615434898df\",\n    \"legerId\":48,\n    \"chainId\":100000,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_022-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7963cd541e3d702eea4f22a5b75772443df1f56c9b92cb76f52174b099fb69f4\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"N92bMb\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626770723148,\n    \"success\": false\n}]",
+      "uid" : "58afaef74941cb60",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020587957,
+        "stop" : 1627020588406,
+        "duration" : 449
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_022'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626770723148,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7963cd541e3d702eea4f22a5b75772443df1f56c9b92cb76f52174b099fb69f4\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"N92bMb\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_023-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d5fc836526c9b2a3e2e7aad5f4eead8e0ca021382200f9329b5e7752df5fb2ec\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0g\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626770817768,\n    \"success\": false\n}]",
+      "uid" : "d40750695ca93203",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020588446,
+        "stop" : 1627020588876,
+        "duration" : 430
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_023'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626770817768,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d5fc836526c9b2a3e2e7aad5f4eead8e0ca021382200f9329b5e7752df5fb2ec\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0g\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_024-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"be683b406cfc417847597511d522f6bd8d8cae1e0b54d25132016df6f56605d3\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626771117393,\n    \"success\": false\n}]",
+      "uid" : "a63c9611e8ef3ed0",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020588917,
+        "stop" : 1627020589336,
+        "duration" : 419
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_024'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626771117393,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"be683b406cfc417847597511d522f6bd8d8cae1e0b54d25132016df6f56605d3\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_025-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"73e01cd94017563ea4d334fe665e6910d628d359f65c44286bd97a6e79463595\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":100000\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626771189971,\n    \"success\": false\n}]",
+      "uid" : "5e4156eab02c9448",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020589358,
+        "stop" : 1627020589797,
+        "duration" : 439
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_025'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626771189971,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"73e01cd94017563ea4d334fe665e6910d628d359f65c44286bd97a6e79463595\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":100000\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_026-{ \"data\":null,\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"data\": [\n            \"data不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626772359456,\n    \"success\": false\n}]",
+      "uid" : "d7967573684751a",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020589826,
+        "stop" : 1627020590270,
+        "duration" : 444
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_026'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"data\": [\n            \"data不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626772359456,\n    \"success\": false\n}'", "'{ \"data\":null,\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_027-{\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"data\": [\n            \"data不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626772437630,\n    \"success\": false\n}]",
+      "uid" : "f1589240aa0680db",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020590313,
+        "stop" : 1627020590739,
+        "duration" : 426
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_027'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"data\": [\n            \"data不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626772437630,\n    \"success\": false\n}'", "'{\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_028-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"7位随机数不能为空\",\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626772617944,\n    \"success\": false\n}]",
+      "uid" : "ee86d33f620f9341",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020590761,
+        "stop" : 1627020591187,
+        "duration" : 426
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_028'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"7位随机数不能为空\",\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626772617944,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_029-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"timestamp\": 1941761698000,\n    \"sign\": \"9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"7位随机数不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626772673059,\n    \"success\": false\n}]",
+      "uid" : "2611929c4b11bade",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020591225,
+        "stop" : 1627020591637,
+        "duration" : 412
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_029'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"7位随机数不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626772673059,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"timestamp\": 1941761698000,\n    \"sign\": \"9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_030-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": null,\n    \"sign\": \"0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"timestamp\": [\n            \"发送时间戳不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626772816112,\n    \"success\": false\n}]",
+      "uid" : "d94217cbf7f7566c",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020591677,
+        "stop" : 1627020592108,
+        "duration" : 431
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_030'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"timestamp\": [\n            \"发送时间戳不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626772816112,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": null,\n    \"sign\": \"0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_031-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"sign\": \"0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"timestamp\": [\n            \"发送时间戳不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626772871528,\n    \"success\": false\n}]",
+      "uid" : "f8ed4ab115f8c040",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020592145,
+        "stop" : 1627020592597,
+        "duration" : 452
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_031'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"timestamp\": [\n            \"发送时间戳不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626772871528,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"sign\": \"0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_032-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"sign\": [\n            \"数据签名不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773105913,\n    \"success\": false\n}]",
+      "uid" : "a9fc21b21889015e",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020592641,
+        "stop" : 1627020593087,
+        "duration" : 446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_032'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"sign\": [\n            \"数据签名不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773105913,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_033-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"sign\": [\n            \"数据签名不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773164870,\n    \"success\": false\n}]",
+      "uid" : "336c6a36d3eb8272",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020593122,
+        "stop" : 1627020593570,
+        "duration" : 448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_033'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"sign\": [\n            \"数据签名不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773164870,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_034-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338\",\n    \"legerId\":null,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"legerId\": [\n            \"账本ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773291250,\n    \"success\": false\n}]",
+      "uid" : "8fdb020012ff42b5",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020593589,
+        "stop" : 1627020594009,
+        "duration" : 420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_034'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"legerId\": [\n            \"账本ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773291250,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338\",\n    \"legerId\":null,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_035-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338\",\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"legerId\": [\n            \"账本ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773347313,\n    \"success\": false\n}]",
+      "uid" : "3c3ae91063eda0ae",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020594046,
+        "stop" : 1627020594491,
+        "duration" : 445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_035'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"legerId\": [\n            \"账本ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773347313,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338\",\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_036-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414\",\n    \"legerId\":48,\n    \"chainId\":\"\",\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"chainId\": [\n            \"子链ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773507628,\n    \"success\": false\n}]",
+      "uid" : "be496d035471ba73",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020594513,
+        "stop" : 1627020594964,
+        "duration" : 451
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_036'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"chainId\": [\n            \"子链ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773507628,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414\",\n    \"legerId\":48,\n    \"chainId\":\"\",\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_037-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414\",\n    \"legerId\":48,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"chainId\": [\n            \"子链ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773560571,\n    \"success\": false\n}]",
+      "uid" : "4f34cb78821965e3",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020595000,
+        "stop" : 1627020595456,
+        "duration" : 456
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_037'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"chainId\": [\n            \"子链ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773560571,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414\",\n    \"legerId\":48,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_038-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": [\n            \"应用ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773658251,\n    \"success\": false\n}]",
+      "uid" : "e60650e77a544371",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020595485,
+        "stop" : 1627020595944,
+        "duration" : 459
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_038'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": [\n            \"应用ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773658251,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_039-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": [\n            \"应用ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773707965,\n    \"success\": false\n}]",
+      "uid" : "7d48ef67dab3e70",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020595973,
+        "stop" : 1627020596434,
+        "duration" : 461
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_039'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": [\n            \"应用ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773707965,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_040-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":\"\"\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": [\n            \"网络ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773809982,\n    \"success\": false\n}]",
+      "uid" : "c1862259e1418a8d",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020596458,
+        "stop" : 1627020596901,
+        "duration" : 443
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_040'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": [\n            \"网络ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773809982,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":\"\"\n}'" ]
+    }, {
+      "name" : "test_data_save_error[SJSL_041-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\"\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": [\n            \"网络ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773868111,\n    \"success\": false\n}]",
+      "uid" : "c21de95684e47893",
+      "parentUid" : "bd0603886dda8c866e4eaa699ae2704f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020596923,
+        "stop" : 1627020597388,
+        "duration" : 465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJSL_041'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": [\n            \"网络ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/save\",\n    \"timestamp\": 1626773868111,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\"\n}'" ]
+    } ],
+    "uid" : "bd0603886dda8c866e4eaa699ae2704f"
+  }, {
+    "name" : "数据查询-正常流",
+    "children" : [ {
+      "name" : "test_data_query_right[SJCX_001-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 49,\n            \"clusterId\": 60,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200001029753\",\n                \"sex\": \"男\"\n            },\n            \"legerId\": 48,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626763792739,\n    \"success\": true\n}]",
+      "uid" : "3c7234e2b42740b9",
+      "parentUid" : "38ca781e051ddfac4424713d9d15bd48",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020597417,
+        "stop" : 1627020597391,
+        "duration" : -26
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_001'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 49,\n            \"clusterId\": 60,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200001029753\",\n                \"sex\": \"男\"\n            },\n            \"legerId\": 48,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626763792739,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_right[SJCX_002-{ \"data\":{\"idcardno\":\"110105200001029753\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"f3cfd8849a30defac270303d54e791d9e04b6568fec0cdc5db84c92b37a0d99e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"clusterId\": 60,\n            \"chainId\": 49,\n            \"legerId\": 48,\n            \"orgId\": 3,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200001029753\",\n                \"sex\": \"男\"\n            }\n        }\n    },\n    \"timestamp\": 1626763937578,\n    \"success\": true\n}]",
+      "uid" : "25e5bf38a4052c49",
+      "parentUid" : "38ca781e051ddfac4424713d9d15bd48",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020598105,
+        "stop" : 1627020598076,
+        "duration" : -29
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_002'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"clusterId\": 60,\n            \"chainId\": 49,\n            \"legerId\": 48,\n            \"orgId\": 3,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200001029753\",\n                \"sex\": \"男\"\n            }\n        }\n    },\n    \"timestamp\": 1626763937578,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"f3cfd8849a30defac270303d54e791d9e04b6568fec0cdc5db84c92b37a0d99e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_right[SJCX_003-{ \"data\":{\"idcardno\":\"110105200001024952\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"af232a3176be2c0ba1f2efb226d4bd481dfe2a1b4a37df80a49785eec95ab833\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {}\n    },\n    \"timestamp\": 1626764091270,\n    \"success\": true\n}]",
+      "uid" : "60d2adaea2c54dca",
+      "parentUid" : "38ca781e051ddfac4424713d9d15bd48",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020598843,
+        "stop" : 1627020598807,
+        "duration" : -36
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_003'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {}\n    },\n    \"timestamp\": 1626764091270,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001024952\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"af232a3176be2c0ba1f2efb226d4bd481dfe2a1b4a37df80a49785eec95ab833\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_right[SJCX_004-{ \"data\":{\"idcardno\":\"110105200101023949\",\"sex\":\"女\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"b6ebc47de4d36111a4da21cb700efcee2a84018e44bdf83b114297414ec55e55\",\n    \"legerId\": 48,\n    \"chainId\":50,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 50,\n            \"clusterId\": 61,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200101023949\",\n                \"sex\": \"女\"\n            },\n            \"legerId\": 48,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626764979759,\n    \"success\": true\n}]",
+      "uid" : "545e431544711a3d",
+      "parentUid" : "38ca781e051ddfac4424713d9d15bd48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020599549,
+        "stop" : 1627020600163,
+        "duration" : 614
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_004'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 50,\n            \"clusterId\": 61,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200101023949\",\n                \"sex\": \"女\"\n            },\n            \"legerId\": 48,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626764979759,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023949\",\"sex\":\"女\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"b6ebc47de4d36111a4da21cb700efcee2a84018e44bdf83b114297414ec55e55\",\n    \"legerId\": 48,\n    \"chainId\":50,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_query_right[SJCX_005-{ \"data\":{\"ybcode\":\"zhangsan001\",\"sex\":\"男\",\"name\":\"张三\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4fd2fe34a2670aee7167b3e74a365cdb70310f60caf85ebbbb294e838885f4ce\",\n    \"legerId\": 49,\n    \"chainId\":52,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 52,\n            \"clusterId\": 61,\n            \"details\": {\n                \"name\": \"张三\",\n                \"sex\": \"男\",\n                \"ybcode\": \"zhangsan001\"\n            },\n            \"legerId\": 49,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626765374400,\n    \"success\": true\n}]",
+      "uid" : "5a7846daa0b0d92f",
+      "parentUid" : "38ca781e051ddfac4424713d9d15bd48",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020600181,
+        "stop" : 1627020600165,
+        "duration" : -16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_005'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 52,\n            \"clusterId\": 61,\n            \"details\": {\n                \"name\": \"张三\",\n                \"sex\": \"男\",\n                \"ybcode\": \"zhangsan001\"\n            },\n            \"legerId\": 49,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626765374400,\n    \"success\": true\n}'", "'{ \"data\":{\"ybcode\":\"zhangsan001\",\"sex\":\"男\",\"name\":\"张三\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4fd2fe34a2670aee7167b3e74a365cdb70310f60caf85ebbbb294e838885f4ce\",\n    \"legerId\": 49,\n    \"chainId\":52,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_query_right[SJCX_006-{ \"data\":{\"ybcode\":\"lisi001\",\"sex\":\"男\",\"name\":\"李四\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"59b27b58b6fd4633ae9155bb071db9e9b44d53d7b695b44c02a65e4bd3a7076e\",\n    \"legerId\": 49,\n    \"chainId\":53,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 53,\n            \"clusterId\": 61,\n            \"details\": {\n                \"name\": \"李四\",\n                \"sex\": \"男\",\n                \"ybcode\": \"lisi001\"\n            },\n            \"legerId\": 49,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626765624400,\n    \"success\": true\n}]",
+      "uid" : "3ae050961c347a00",
+      "parentUid" : "38ca781e051ddfac4424713d9d15bd48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020601029,
+        "stop" : 1627020601664,
+        "duration" : 635
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_006'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 53,\n            \"clusterId\": 61,\n            \"details\": {\n                \"name\": \"李四\",\n                \"sex\": \"男\",\n                \"ybcode\": \"lisi001\"\n            },\n            \"legerId\": 49,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626765624400,\n    \"success\": true\n}'", "'{ \"data\":{\"ybcode\":\"lisi001\",\"sex\":\"男\",\"name\":\"李四\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"59b27b58b6fd4633ae9155bb071db9e9b44d53d7b695b44c02a65e4bd3a7076e\",\n    \"legerId\": 49,\n    \"chainId\":53,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_query_right[SJCX_007-{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7acae9464c29f290fd0929dd47c5aaf159280eb36582deedc79d9cebda5cbf78\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 49,\n            \"clusterId\": 60,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200101023500\",\n                \"sex\": \"女\"\n            },\n            \"legerId\": 48,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626765872006,\n    \"success\": true\n}]",
+      "uid" : "113c88860df78085",
+      "parentUid" : "38ca781e051ddfac4424713d9d15bd48",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020601699,
+        "stop" : 1627020601666,
+        "duration" : -33
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_007'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"chainId\": 49,\n            \"clusterId\": 60,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200101023500\",\n                \"sex\": \"女\"\n            },\n            \"legerId\": 48,\n            \"orgId\": 3\n        }\n    },\n    \"timestamp\": 1626765872006,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7acae9464c29f290fd0929dd47c5aaf159280eb36582deedc79d9cebda5cbf78\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_right[SJCX_008-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"clusterId\": 60,\n            \"chainId\": 49,\n            \"legerId\": 48,\n            \"orgId\": 3,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200001029753\",\n                \"sex\": \"男\"\n            }\n        }\n    },\n    \"timestamp\": 1626767115151,\n    \"success\": true\n}]",
+      "uid" : "cc993028f0cfc50c",
+      "parentUid" : "38ca781e051ddfac4424713d9d15bd48",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020602421,
+        "stop" : 1627020602389,
+        "duration" : -32
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_008'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": {\n            \"appId\": \"rRHm0G\",\n            \"clusterId\": 60,\n            \"chainId\": 49,\n            \"legerId\": 48,\n            \"orgId\": 3,\n            \"details\": {\n                \"birthday\": \"2000-01-02\",\n                \"idcardno\": \"110105200001029753\",\n                \"sex\": \"男\"\n            }\n        }\n    },\n    \"timestamp\": 1626767115151,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    } ],
+    "uid" : "38ca781e051ddfac4424713d9d15bd48"
+  }, {
+    "name" : "数据查询-异常流",
+    "children" : [ {
+      "name" : "test_data_query_error[SJCX_009-{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"6f98cbaac1a2653f31c3b64f9afc392eba3e9b04b38d55df37b87408795aff99\",\n    \"legerId\": 51,\n    \"chainId\":54,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 0,\n    \"msg\": \"合约账本必须有唯一Key\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626766189997,\n    \"success\": false\n}]",
+      "uid" : "c917c270791395c1",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020603113,
+        "stop" : 1627020603677,
+        "duration" : 564
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_009'", "'{\n    \"code\": 0,\n    \"msg\": \"合约账本必须有唯一Key\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626766189997,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"6f98cbaac1a2653f31c3b64f9afc392eba3e9b04b38d55df37b87408795aff99\",\n    \"legerId\": 51,\n    \"chainId\":54,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_010-{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7c3a6b0a001171b38b0be082147c680457d3fb6b39a9c50e019417da819c86e8\",\n    \"legerId\": 50,\n    \"chainId\":51,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 62\n}-{\n    \"code\": 500,\n    \"msg\": \"合约执行失败\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626766374013,\n    \"success\": false\n}]",
+      "uid" : "744fcbfaba6d5cb1",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020603709,
+        "stop" : 1627020604440,
+        "duration" : 731
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_010'", "'{\n    \"code\": 500,\n    \"msg\": \"合约执行失败\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626766374013,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7c3a6b0a001171b38b0be082147c680457d3fb6b39a9c50e019417da819c86e8\",\n    \"legerId\": 50,\n    \"chainId\":51,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 62\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_011-{ \"data\":{\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"47d6c30e183c0311bcb6fd4938f1c51001830e3cafc4ab146e9bb4c1435e6382\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 0,\n    \"msg\": \"缺少参数data.idcardno\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626766870768,\n    \"success\": false\n}]",
+      "uid" : "7363799d5070837",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020604477,
+        "stop" : 1627020605041,
+        "duration" : 564
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_011'", "'{\n    \"code\": 0,\n    \"msg\": \"缺少参数data.idcardno\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626766870768,\n    \"success\": false\n}'", "'{ \"data\":{\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"47d6c30e183c0311bcb6fd4938f1c51001830e3cafc4ab146e9bb4c1435e6382\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_012-{ \"data\":{\"idcardno\":\"110105200101023201\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"b137353b17236cdcbb1dc642415bba3d6d951a2997067e1fa662c2de1b8321a8\",\n    \"legerId\": 52,\n    \"chainId\":55,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626767623490,\n    \"success\": false\n}]",
+      "uid" : "7ddebd91148dc754",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020605078,
+        "stop" : 1627020605558,
+        "duration" : 480
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_012'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626767623490,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023201\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"b137353b17236cdcbb1dc642415bba3d6d951a2997067e1fa662c2de1b8321a8\",\n    \"legerId\": 52,\n    \"chainId\":55,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_013-{ \"data\":{\"idcardno\":\"110105200101024845\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7b9ff2e32779963985d5e6d057a5e1b0c196f83ab63649e49dff41e87bad2635\",\n    \"legerId\": 52,\n    \"chainId\":56,\n    \"appId\": \"nd2GFm\",\n    \"clusterId\": 61\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626767967615,\n    \"success\": false\n}]",
+      "uid" : "c1736f33466c9d59",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020605585,
+        "stop" : 1627020606102,
+        "duration" : 517
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_013'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626767967615,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101024845\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7b9ff2e32779963985d5e6d057a5e1b0c196f83ab63649e49dff41e87bad2635\",\n    \"legerId\": 52,\n    \"chainId\":56,\n    \"appId\": \"nd2GFm\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_014-{ \"data\":{\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"47d6c30e183c0311bcb6fd4938f1c51001830e3cafc4ab146e9bb4c1435e6382\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 0,\n    \"msg\": \"缺少参数data.idcardno\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626768775715,\n    \"success\": false\n}]",
+      "uid" : "bf65aedcaa092738",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020606125,
+        "stop" : 1627020606733,
+        "duration" : 608
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_014'", "'{\n    \"code\": 0,\n    \"msg\": \"缺少参数data.idcardno\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626768775715,\n    \"success\": false\n}'", "'{ \"data\":{\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"47d6c30e183c0311bcb6fd4938f1c51001830e3cafc4ab146e9bb4c1435e6382\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_015-{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one387\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d2506fdc33dc2a73f8b35d6c0b9ebdf769144bcb697fc71c82db7b920cbc4f1e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626768679975,\n    \"success\": false\n}]",
+      "uid" : "ca2892d4db769d3d",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020606773,
+        "stop" : 1627020607283,
+        "duration" : 510
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_015'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626768679975,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one387\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d2506fdc33dc2a73f8b35d6c0b9ebdf769144bcb697fc71c82db7b920cbc4f1e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_016-{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874m\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0dc10719475382eba093ac3a8dfcb95202f3c3691a0753c099491e10ec4f1e86\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626768917355,\n    \"success\": false\n}]",
+      "uid" : "9f89b5bb5db193f9",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020607326,
+        "stop" : 1627020607849,
+        "duration" : 523
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_016'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626768917355,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874m\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0dc10719475382eba093ac3a8dfcb95202f3c3691a0753c099491e10ec4f1e86\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_017-{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1626229198000,\n    \"sign\": \"086a8d3571376c9f574c75c20cd77e62f12a13401bb93c8a7aa203425d5461fa\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626769024670,\n    \"success\": false\n}]",
+      "uid" : "cea7b02d6e64d631",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020607890,
+        "stop" : 1627020608406,
+        "duration" : 516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_017'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626769024670,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1626229198000,\n    \"sign\": \"086a8d3571376c9f574c75c20cd77e62f12a13401bb93c8a7aa203425d5461fa\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_018-{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626769141328,\n    \"success\": false\n}]",
+      "uid" : "249ce7d0e552b2a2",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020608437,
+        "stop" : 1627020609004,
+        "duration" : 567
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_018'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626769141328,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_019-{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"a74adfd2b825f44b3853d39f0e246ef86ee00aeee3188cce15ac302cbcacd2d9\",\n    \"legerId\": 2,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626769327293,\n    \"success\": false\n}]",
+      "uid" : "7190934a7e5c876c",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020609038,
+        "stop" : 1627020609591,
+        "duration" : 553
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_019'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626769327293,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"a74adfd2b825f44b3853d39f0e246ef86ee00aeee3188cce15ac302cbcacd2d9\",\n    \"legerId\": 2,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_020-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7ede925fb2b5fb1a075f6a208504c51449873254b2812cfdbd75c2090569d348\",\n    \"legerId\":100000,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626769771799,\n    \"success\": false\n}]",
+      "uid" : "3427194cff5aa3f0",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020609629,
+        "stop" : 1627020610166,
+        "duration" : 537
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_020'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626769771799,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7ede925fb2b5fb1a075f6a208504c51449873254b2812cfdbd75c2090569d348\",\n    \"legerId\":100000,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_021-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4ca34ab7b14ee55cb89b0e406f69a4b34f28a3ca84b22036d1f4aa8fb5d695ad\",\n    \"legerId\":48,\n    \"chainId\":54,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626770016914,\n    \"success\": false\n}]",
+      "uid" : "c5c6b7107c7ae902",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020610186,
+        "stop" : 1627020610747,
+        "duration" : 561
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_021'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626770016914,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4ca34ab7b14ee55cb89b0e406f69a4b34f28a3ca84b22036d1f4aa8fb5d695ad\",\n    \"legerId\":48,\n    \"chainId\":54,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_022-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"5fa6def7c614a76e481d97c39fc212ef0113ede892c303d809559615434898df\",\n    \"legerId\":48,\n    \"chainId\":100000,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626770433807,\n    \"success\": false\n}]",
+      "uid" : "699b847bdf71aac2",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020610763,
+        "stop" : 1627020611303,
+        "duration" : 540
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_022'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626770433807,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"5fa6def7c614a76e481d97c39fc212ef0113ede892c303d809559615434898df\",\n    \"legerId\":48,\n    \"chainId\":100000,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_023-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7963cd541e3d702eea4f22a5b75772443df1f56c9b92cb76f52174b099fb69f4\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"N92bMb\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626770748047,\n    \"success\": false\n}]",
+      "uid" : "15f4459195340b4f",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020611342,
+        "stop" : 1627020611899,
+        "duration" : 557
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_023'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626770748047,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7963cd541e3d702eea4f22a5b75772443df1f56c9b92cb76f52174b099fb69f4\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"N92bMb\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_024-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d5fc836526c9b2a3e2e7aad5f4eead8e0ca021382200f9329b5e7752df5fb2ec\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0g\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626770837972,\n    \"success\": false\n}]",
+      "uid" : "f0d22aee14f8633a",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020611934,
+        "stop" : 1627020612500,
+        "duration" : 566
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_024'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626770837972,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d5fc836526c9b2a3e2e7aad5f4eead8e0ca021382200f9329b5e7752df5fb2ec\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0g\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_025-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"be683b406cfc417847597511d522f6bd8d8cae1e0b54d25132016df6f56605d3\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626771134873,\n    \"success\": false\n}]",
+      "uid" : "5d5327b2fe350928",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020612541,
+        "stop" : 1627020613135,
+        "duration" : 594
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_025'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626771134873,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"be683b406cfc417847597511d522f6bd8d8cae1e0b54d25132016df6f56605d3\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_026-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"73e01cd94017563ea4d334fe665e6910d628d359f65c44286bd97a6e79463595\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":100000\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626771210217,\n    \"success\": false\n}]",
+      "uid" : "7735cc837d4ad735",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020613157,
+        "stop" : 1627020613719,
+        "duration" : 562
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_026'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626771210217,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"73e01cd94017563ea4d334fe665e6910d628d359f65c44286bd97a6e79463595\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":100000\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_027-{ \"data\":null,\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"data\": [\n            \"data不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626772385443,\n    \"success\": false\n}]",
+      "uid" : "cc8d64e673488476",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020613753,
+        "stop" : 1627020614286,
+        "duration" : 533
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_027'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"data\": [\n            \"data不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626772385443,\n    \"success\": false\n}'", "'{ \"data\":null,\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_028-{\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"data\": [\n            \"data不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626772473780,\n    \"success\": false\n}]",
+      "uid" : "1e5100f914461f9c",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020614321,
+        "stop" : 1627020614875,
+        "duration" : 554
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_028'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"data\": [\n            \"data不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626772473780,\n    \"success\": false\n}'", "'{\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_029-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"7位随机数不能为空\",\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626772636830,\n    \"success\": false\n}]",
+      "uid" : "e31f6325ae132157",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020614913,
+        "stop" : 1627020615471,
+        "duration" : 558
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_029'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"7位随机数不能为空\",\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626772636830,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_030-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"timestamp\": 1941761698000,\n    \"sign\": \"9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"7位随机数不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626772694464,\n    \"success\": false\n}]",
+      "uid" : "86e587a61dd8d5bf",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020615491,
+        "stop" : 1627020616044,
+        "duration" : 553
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_030'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"7位随机数不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626772694464,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"timestamp\": 1941761698000,\n    \"sign\": \"9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_031-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": null,\n    \"sign\": \"0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"timestamp\": [\n            \"发送时间戳不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626772838048,\n    \"success\": false\n}]",
+      "uid" : "a2ba3d12e748e83c",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020616074,
+        "stop" : 1627020616638,
+        "duration" : 564
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_031'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"timestamp\": [\n            \"发送时间戳不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626772838048,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": null,\n    \"sign\": \"0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_032-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"sign\": \"0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"timestamp\": [\n            \"发送时间戳不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626772895952,\n    \"success\": false\n}]",
+      "uid" : "ea8fafbb9d9bbbd8",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020616669,
+        "stop" : 1627020617204,
+        "duration" : 535
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_032'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"timestamp\": [\n            \"发送时间戳不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626772895952,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"sign\": \"0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_033-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"sign\": [\n            \"数据签名不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773117483,\n    \"success\": false\n}]",
+      "uid" : "abce8df97718b785",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020617246,
+        "stop" : 1627020617811,
+        "duration" : 565
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_033'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"sign\": [\n            \"数据签名不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773117483,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_034-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"sign\": [\n            \"数据签名不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773182551,\n    \"success\": false\n}]",
+      "uid" : "5416dccc58aeb050",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020617834,
+        "stop" : 1627020618405,
+        "duration" : 571
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_034'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"sign\": [\n            \"数据签名不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773182551,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_035-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338\",\n    \"legerId\":null,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"legerId\": [\n            \"账本ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773309578,\n    \"success\": false\n}]",
+      "uid" : "2b9ef441ec086b73",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020618440,
+        "stop" : 1627020619002,
+        "duration" : 562
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_035'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"legerId\": [\n            \"账本ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773309578,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338\",\n    \"legerId\":null,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_036-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338\",\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"legerId\": [\n            \"账本ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773366409,\n    \"success\": false\n}]",
+      "uid" : "32de67bf8cf0599b",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020619021,
+        "stop" : 1627020619595,
+        "duration" : 574
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_036'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"legerId\": [\n            \"账本ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773366409,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338\",\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_037-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414\",\n    \"legerId\":48,\n    \"chainId\":\"\",\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"chainId\": [\n            \"子链ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773527134,\n    \"success\": false\n}]",
+      "uid" : "5489785105928c3e",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020619617,
+        "stop" : 1627020620165,
+        "duration" : 548
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_037'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"chainId\": [\n            \"子链ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773527134,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414\",\n    \"legerId\":48,\n    \"chainId\":\"\",\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_038-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414\",\n    \"legerId\":48,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"chainId\": [\n            \"子链ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773579735,\n    \"success\": false\n}]",
+      "uid" : "8f863416caeca274",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020620193,
+        "stop" : 1627020620779,
+        "duration" : 586
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_038'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"chainId\": [\n            \"子链ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773579735,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414\",\n    \"legerId\":48,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_039-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": [\n            \"应用ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773674690,\n    \"success\": false\n}]",
+      "uid" : "908bacb9ffb4744e",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020620804,
+        "stop" : 1627020621392,
+        "duration" : 588
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_039'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": [\n            \"应用ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773674690,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_040-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": [\n            \"应用ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773728489,\n    \"success\": false\n}]",
+      "uid" : "729932fc3d259060",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020621408,
+        "stop" : 1627020622041,
+        "duration" : 633
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_040'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": [\n            \"应用ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773728489,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_041-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":\"\"\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": [\n            \"网络ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773825718,\n    \"success\": false\n}]",
+      "uid" : "11dbfd2a24084d31",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020622077,
+        "stop" : 1627020622675,
+        "duration" : 598
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_041'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": [\n            \"网络ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773825718,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":\"\"\n}'" ]
+    }, {
+      "name" : "test_data_query_error[SJCX_042-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\"\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": [\n            \"网络ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773882242,\n    \"success\": false\n}]",
+      "uid" : "e724af40c647e306",
+      "parentUid" : "8b4945cc5fdfbc74012a18f788901654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020622707,
+        "stop" : 1627020623298,
+        "duration" : 591
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJCX_042'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": [\n            \"网络ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/query\",\n    \"timestamp\": 1626773882242,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\"\n}'" ]
+    } ],
+    "uid" : "8b4945cc5fdfbc74012a18f788901654"
+  }, {
+    "name" : "数据核验-正常流",
+    "children" : [ {
+      "name" : "test_data_check_right[SJHY_001-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626763808993,\n    \"success\": true\n}]",
+      "uid" : "cc6ca09b36d75bbe",
+      "parentUid" : "cdc22c4ccf4f7156f99949dad14fe841",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020623325,
+        "stop" : 1627020623301,
+        "duration" : -24
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_001'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626763808993,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_right[SJHY_002-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": false\n    },\n    \"timestamp\": 1626763959663,\n    \"success\": true\n}]",
+      "uid" : "b0370af3311c4fee",
+      "parentUid" : "cdc22c4ccf4f7156f99949dad14fe841",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020624037,
+        "stop" : 1627020624020,
+        "duration" : -17
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_002'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": false\n    },\n    \"timestamp\": 1626763959663,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_right[SJHY_003-{ \"data\":{\"idcardno\":\"110105200001024952\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"af232a3176be2c0ba1f2efb226d4bd481dfe2a1b4a37df80a49785eec95ab833\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 0,\n    \"msg\": \"数据未上链\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626764113794,\n    \"success\": false\n}]",
+      "uid" : "359a36ea56a1a1a3",
+      "parentUid" : "cdc22c4ccf4f7156f99949dad14fe841",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020624957,
+        "stop" : 1627020624929,
+        "duration" : -28
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_003'", "'{\n    \"code\": 0,\n    \"msg\": \"数据未上链\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626764113794,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001024952\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"af232a3176be2c0ba1f2efb226d4bd481dfe2a1b4a37df80a49785eec95ab833\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_right[SJHY_004-{ \"data\":{\"idcardno\":\"110105200101023949\",\"sex\":\"女\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"b6ebc47de4d36111a4da21cb700efcee2a84018e44bdf83b114297414ec55e55\",\n    \"legerId\": 48,\n    \"chainId\":50,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626765014590,\n    \"success\": true\n}]",
+      "uid" : "6591d30320a263ca",
+      "parentUid" : "cdc22c4ccf4f7156f99949dad14fe841",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020625897,
+        "stop" : 1627020626628,
+        "duration" : 731
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_004'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626765014590,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023949\",\"sex\":\"女\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"b6ebc47de4d36111a4da21cb700efcee2a84018e44bdf83b114297414ec55e55\",\n    \"legerId\": 48,\n    \"chainId\":50,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_check_right[SJHY_005-{ \"data\":{\"ybcode\":\"zhangsan001\",\"sex\":\"男\",\"name\":\"张三\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4fd2fe34a2670aee7167b3e74a365cdb70310f60caf85ebbbb294e838885f4ce\",\n    \"legerId\": 49,\n    \"chainId\":52,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626765518092,\n    \"success\": true\n}]",
+      "uid" : "c311b62d07043c15",
+      "parentUid" : "cdc22c4ccf4f7156f99949dad14fe841",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020626653,
+        "stop" : 1627020626631,
+        "duration" : -22
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_005'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626765518092,\n    \"success\": true\n}'", "'{ \"data\":{\"ybcode\":\"zhangsan001\",\"sex\":\"男\",\"name\":\"张三\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4fd2fe34a2670aee7167b3e74a365cdb70310f60caf85ebbbb294e838885f4ce\",\n    \"legerId\": 49,\n    \"chainId\":52,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_check_right[SJHY_006-{ \"data\":{\"ybcode\":\"lisi001\",\"sex\":\"男\",\"name\":\"李四\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"59b27b58b6fd4633ae9155bb071db9e9b44d53d7b695b44c02a65e4bd3a7076e\",\n    \"legerId\": 49,\n    \"chainId\":53,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626765639295,\n    \"success\": true\n}]",
+      "uid" : "4c3da021ba20478f",
+      "parentUid" : "cdc22c4ccf4f7156f99949dad14fe841",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020627406,
+        "stop" : 1627020628206,
+        "duration" : 800
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_006'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626765639295,\n    \"success\": true\n}'", "'{ \"data\":{\"ybcode\":\"lisi001\",\"sex\":\"男\",\"name\":\"李四\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"59b27b58b6fd4633ae9155bb071db9e9b44d53d7b695b44c02a65e4bd3a7076e\",\n    \"legerId\": 49,\n    \"chainId\":53,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_check_right[SJHY_007-{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7acae9464c29f290fd0929dd47c5aaf159280eb36582deedc79d9cebda5cbf78\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626765883608,\n    \"success\": true\n}]",
+      "uid" : "d1a667fa72a87cb6",
+      "parentUid" : "cdc22c4ccf4f7156f99949dad14fe841",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020628234,
+        "stop" : 1627020628209,
+        "duration" : -25
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_007'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": true\n    },\n    \"timestamp\": 1626765883608,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7acae9464c29f290fd0929dd47c5aaf159280eb36582deedc79d9cebda5cbf78\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_right[SJHY_008-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": false\n    },\n    \"timestamp\": 1626767158813,\n    \"success\": true\n}]",
+      "uid" : "4bf9f6c893200f15",
+      "parentUid" : "cdc22c4ccf4f7156f99949dad14fe841",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627020629114,
+        "stop" : 1627020629094,
+        "duration" : -20
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_008'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": false\n    },\n    \"timestamp\": 1626767158813,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    } ],
+    "uid" : "cdc22c4ccf4f7156f99949dad14fe841"
+  }, {
+    "name" : "数据核验-异常流",
+    "children" : [ {
+      "name" : "test_data_check_error[SJHY_009-{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"6f98cbaac1a2653f31c3b64f9afc392eba3e9b04b38d55df37b87408795aff99\",\n    \"legerId\": 51,\n    \"chainId\":54,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 0,\n    \"msg\": \"合约账本必须有唯一Key\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626766193636,\n    \"success\": false\n}]",
+      "uid" : "e64c1027de3a9dc5",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020629814,
+        "stop" : 1627020630514,
+        "duration" : 700
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_009'", "'{\n    \"code\": 0,\n    \"msg\": \"合约账本必须有唯一Key\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626766193636,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\",\"name\":\"不理不理\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"6f98cbaac1a2653f31c3b64f9afc392eba3e9b04b38d55df37b87408795aff99\",\n    \"legerId\": 51,\n    \"chainId\":54,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_010-{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7c3a6b0a001171b38b0be082147c680457d3fb6b39a9c50e019417da819c86e8\",\n    \"legerId\": 50,\n    \"chainId\":51,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 62\n}-{\n    \"code\": 500,\n    \"msg\": \"合约执行失败\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626766378735,\n    \"success\": false\n}]",
+      "uid" : "ed251a1c45e2284",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020630534,
+        "stop" : 1627020631393,
+        "duration" : 859
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_010'", "'{\n    \"code\": 500,\n    \"msg\": \"合约执行失败\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626766378735,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023500\",\"sex\":\"女\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7c3a6b0a001171b38b0be082147c680457d3fb6b39a9c50e019417da819c86e8\",\n    \"legerId\": 50,\n    \"chainId\":51,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 62\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_011-{ \"data\":{\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"47d6c30e183c0311bcb6fd4938f1c51001830e3cafc4ab146e9bb4c1435e6382\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 0,\n    \"msg\": \"缺少参数data.idcardno\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626766890812,\n    \"success\": false\n}]",
+      "uid" : "64e0a3e434ca19a",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020631425,
+        "stop" : 1627020632140,
+        "duration" : 715
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_011'", "'{\n    \"code\": 0,\n    \"msg\": \"缺少参数data.idcardno\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626766890812,\n    \"success\": false\n}'", "'{ \"data\":{\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"47d6c30e183c0311bcb6fd4938f1c51001830e3cafc4ab146e9bb4c1435e6382\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_012-{ \"data\":{\"idcardno\":\"110105200101023201\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"b137353b17236cdcbb1dc642415bba3d6d951a2997067e1fa662c2de1b8321a8\",\n    \"legerId\": 52,\n    \"chainId\":55,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626767627790,\n    \"success\": false\n}]",
+      "uid" : "3a41fefbae699f9f",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020632181,
+        "stop" : 1627020632832,
+        "duration" : 651
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_012'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626767627790,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101023201\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"two3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"b137353b17236cdcbb1dc642415bba3d6d951a2997067e1fa662c2de1b8321a8\",\n    \"legerId\": 52,\n    \"chainId\":55,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_013-{ \"data\":{\"idcardno\":\"110105200101024845\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7b9ff2e32779963985d5e6d057a5e1b0c196f83ab63649e49dff41e87bad2635\",\n    \"legerId\": 52,\n    \"chainId\":56,\n    \"appId\": \"nd2GFm\",\n    \"clusterId\": 61\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626767981419,\n    \"success\": false\n}]",
+      "uid" : "cfe82e95df292f65",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020632858,
+        "stop" : 1627020633490,
+        "duration" : 632
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_013'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626767981419,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101024845\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7b9ff2e32779963985d5e6d057a5e1b0c196f83ab63649e49dff41e87bad2635\",\n    \"legerId\": 52,\n    \"chainId\":56,\n    \"appId\": \"nd2GFm\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_014-{ \"data\":{\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"47d6c30e183c0311bcb6fd4938f1c51001830e3cafc4ab146e9bb4c1435e6382\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 0,\n    \"msg\": \"缺少参数data.idcardno\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626768798432,\n    \"success\": false\n}]",
+      "uid" : "5d4e4d512e33e7b0",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020633529,
+        "stop" : 1627020634240,
+        "duration" : 711
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_014'", "'{\n    \"code\": 0,\n    \"msg\": \"缺少参数data.idcardno\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626768798432,\n    \"success\": false\n}'", "'{ \"data\":{\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"47d6c30e183c0311bcb6fd4938f1c51001830e3cafc4ab146e9bb4c1435e6382\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_015-{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one387\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d2506fdc33dc2a73f8b35d6c0b9ebdf769144bcb697fc71c82db7b920cbc4f1e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626768700801,\n    \"success\": false\n}]",
+      "uid" : "c00994bf294cb8f0",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020634261,
+        "stop" : 1627020634886,
+        "duration" : 625
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_015'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626768700801,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one387\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d2506fdc33dc2a73f8b35d6c0b9ebdf769144bcb697fc71c82db7b920cbc4f1e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_016-{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874m\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0dc10719475382eba093ac3a8dfcb95202f3c3691a0753c099491e10ec4f1e86\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626768940273,\n    \"success\": false\n}]",
+      "uid" : "b65643f7f5fb54ec",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020634906,
+        "stop" : 1627020635561,
+        "duration" : 655
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_016'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"length must be between 7 and 7\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626768940273,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874m\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0dc10719475382eba093ac3a8dfcb95202f3c3691a0753c099491e10ec4f1e86\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_017-{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1626229198000,\n    \"sign\": \"086a8d3571376c9f574c75c20cd77e62f12a13401bb93c8a7aa203425d5461fa\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626769045283,\n    \"success\": false\n}]",
+      "uid" : "9f6df5eb3bd9c4c3",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020635590,
+        "stop" : 1627020636238,
+        "duration" : 648
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_017'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626769045283,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1626229198000,\n    \"sign\": \"086a8d3571376c9f574c75c20cd77e62f12a13401bb93c8a7aa203425d5461fa\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_018-{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626769181107,\n    \"success\": false\n}]",
+      "uid" : "69a247132edb31af",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020636266,
+        "stop" : 1627020636914,
+        "duration" : 648
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_018'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626769181107,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"8fa7b8c4f9dbf2e59dad8507f931fb68c925fd7801b26b7ed2551c467276dc4e\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_019-{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"a74adfd2b825f44b3853d39f0e246ef86ee00aeee3188cce15ac302cbcacd2d9\",\n    \"legerId\": 2,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626769357969,\n    \"success\": false\n}]",
+      "uid" : "a7ecbd60f38b9cef",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020636950,
+        "stop" : 1627020637620,
+        "duration" : 670
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_019'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626769357969,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200101029566\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"a74adfd2b825f44b3853d39f0e246ef86ee00aeee3188cce15ac302cbcacd2d9\",\n    \"legerId\": 2,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_020-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7ede925fb2b5fb1a075f6a208504c51449873254b2812cfdbd75c2090569d348\",\n    \"legerId\":100000,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626769791227,\n    \"success\": false\n}]",
+      "uid" : "67a8e00617887a78",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020637657,
+        "stop" : 1627020638322,
+        "duration" : 665
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_020'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626769791227,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7ede925fb2b5fb1a075f6a208504c51449873254b2812cfdbd75c2090569d348\",\n    \"legerId\":100000,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_021-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4ca34ab7b14ee55cb89b0e406f69a4b34f28a3ca84b22036d1f4aa8fb5d695ad\",\n    \"legerId\":48,\n    \"chainId\":54,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626770036712,\n    \"success\": false\n}]",
+      "uid" : "a01c538b91706dee",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020638341,
+        "stop" : 1627020639011,
+        "duration" : 670
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_021'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626770036712,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"4ca34ab7b14ee55cb89b0e406f69a4b34f28a3ca84b22036d1f4aa8fb5d695ad\",\n    \"legerId\":48,\n    \"chainId\":54,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_022-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"5fa6def7c614a76e481d97c39fc212ef0113ede892c303d809559615434898df\",\n    \"legerId\":48,\n    \"chainId\":100000,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626770456140,\n    \"success\": false\n}]",
+      "uid" : "284170f991cb2674",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020639046,
+        "stop" : 1627020639728,
+        "duration" : 682
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_022'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626770456140,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"5fa6def7c614a76e481d97c39fc212ef0113ede892c303d809559615434898df\",\n    \"legerId\":48,\n    \"chainId\":100000,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_023-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7963cd541e3d702eea4f22a5b75772443df1f56c9b92cb76f52174b099fb69f4\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"N92bMb\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626770765456,\n    \"success\": false\n}]",
+      "uid" : "37f865b4179bbfd5",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020639770,
+        "stop" : 1627020640441,
+        "duration" : 671
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_023'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626770765456,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"7963cd541e3d702eea4f22a5b75772443df1f56c9b92cb76f52174b099fb69f4\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"N92bMb\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_024-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d5fc836526c9b2a3e2e7aad5f4eead8e0ca021382200f9329b5e7752df5fb2ec\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0g\",\n    \"clusterId\": 60\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626770859932,\n    \"success\": false\n}]",
+      "uid" : "86085f78f2d44211",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020640478,
+        "stop" : 1627020641154,
+        "duration" : 676
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_024'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626770859932,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d5fc836526c9b2a3e2e7aad5f4eead8e0ca021382200f9329b5e7752df5fb2ec\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0g\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_025-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"be683b406cfc417847597511d522f6bd8d8cae1e0b54d25132016df6f56605d3\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626771151094,\n    \"success\": false\n}]",
+      "uid" : "2a9b29440ae9494a",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020641190,
+        "stop" : 1627020641881,
+        "duration" : 691
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_025'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626771151094,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"be683b406cfc417847597511d522f6bd8d8cae1e0b54d25132016df6f56605d3\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 61\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_026-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"73e01cd94017563ea4d334fe665e6910d628d359f65c44286bd97a6e79463595\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":100000\n}-{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626771227433,\n    \"success\": false\n}]",
+      "uid" : "2534c32f583b661b",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020641914,
+        "stop" : 1627020642597,
+        "duration" : 683
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_026'", "'{\n    \"code\": 401,\n    \"msg\": \"无权限访问\",\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626771227433,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"73e01cd94017563ea4d334fe665e6910d628d359f65c44286bd97a6e79463595\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":100000\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_027-{ \"data\":null,\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"data\": [\n            \"data不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626772405868,\n    \"success\": false\n}]",
+      "uid" : "59321352c7afb7dc",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020642625,
+        "stop" : 1627020643295,
+        "duration" : 670
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_027'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"data\": [\n            \"data不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626772405868,\n    \"success\": false\n}'", "'{ \"data\":null,\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_028-{\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"data\": [\n            \"data不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626772494290,\n    \"success\": false\n}]",
+      "uid" : "41f2debc45364f4f",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020643330,
+        "stop" : 1627020643981,
+        "duration" : 651
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_028'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"data\": [\n            \"data不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626772494290,\n    \"success\": false\n}'", "'{\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d4f5ba89fe04d291d36126054fbf92dd28bfd37254580f4aa9daa69a902624f6\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_029-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"length must be between 7 and 7\",\n            \"7位随机数不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626772656878,\n    \"success\": false\n}]",
+      "uid" : "b66a53a472213b64",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020644001,
+        "stop" : 1627020644696,
+        "duration" : 695
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_029'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"length must be between 7 and 7\",\n            \"7位随机数不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626772656878,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_030-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"timestamp\": 1941761698000,\n    \"sign\": \"9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"7位随机数不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626772715919,\n    \"success\": false\n}]",
+      "uid" : "cf0a235b287baef2",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020644730,
+        "stop" : 1627020645428,
+        "duration" : 698
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_030'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"nonce\": [\n            \"7位随机数不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626772715919,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"timestamp\": 1941761698000,\n    \"sign\": \"9b02bb0b8abcfe909c973d144f3c1a7dae50646ea35be59dd88f8f23d35b2519\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_031-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": null,\n    \"sign\": \"0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"timestamp\": [\n            \"发送时间戳不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626772853309,\n    \"success\": false\n}]",
+      "uid" : "72c7c439f4922d10",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020645461,
+        "stop" : 1627020646183,
+        "duration" : 722
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_031'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"timestamp\": [\n            \"发送时间戳不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626772853309,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": null,\n    \"sign\": \"0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_032-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"sign\": \"0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"timestamp\": [\n            \"发送时间戳不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626772918512,\n    \"success\": false\n}]",
+      "uid" : "d83fcc3f557e1526",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020646202,
+        "stop" : 1627020646913,
+        "duration" : 711
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_032'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"timestamp\": [\n            \"发送时间戳不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626772918512,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"sign\": \"0cf64e7c6901a3a95886e7ca4a1886d639fe6d75f9634faac15e00da902a3a98\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_033-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"sign\": [\n            \"数据签名不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773147061,\n    \"success\": false\n}]",
+      "uid" : "a8b169f5c6fc4f03",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020646950,
+        "stop" : 1627020647648,
+        "duration" : 698
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_033'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"sign\": [\n            \"数据签名不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773147061,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_034-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"sign\": [\n            \"数据签名不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773199654,\n    \"success\": false\n}]",
+      "uid" : "11f8c92e0375b952",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020647669,
+        "stop" : 1627020648363,
+        "duration" : 694
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_034'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"sign\": [\n            \"数据签名不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773199654,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_035-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338\",\n    \"legerId\":null,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"legerId\": [\n            \"账本ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773325345,\n    \"success\": false\n}]",
+      "uid" : "92a3665bec92b32e",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020648382,
+        "stop" : 1627020649064,
+        "duration" : 682
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_035'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"legerId\": [\n            \"账本ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773325345,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338\",\n    \"legerId\":null,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_036-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338\",\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"legerId\": [\n            \"账本ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773383004,\n    \"success\": false\n}]",
+      "uid" : "e267098646d86f0f",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020649102,
+        "stop" : 1627020649793,
+        "duration" : 691
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_036'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"legerId\": [\n            \"账本ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773383004,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d564df170dcb929afe51752b221a1456fef2b4e043a850d4886eeafae4957338\",\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_037-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414\",\n    \"legerId\":48,\n    \"chainId\":\"\",\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"chainId\": [\n            \"子链ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773541580,\n    \"success\": false\n}]",
+      "uid" : "a050f3d4d4a59356",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020649830,
+        "stop" : 1627020650536,
+        "duration" : 706
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_037'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"chainId\": [\n            \"子链ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773541580,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414\",\n    \"legerId\":48,\n    \"chainId\":\"\",\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_038-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414\",\n    \"legerId\":48,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"chainId\": [\n            \"子链ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773599167,\n    \"success\": false\n}]",
+      "uid" : "96ecc754fda2c98a",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020650567,
+        "stop" : 1627020651248,
+        "duration" : 681
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_038'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"chainId\": [\n            \"子链ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773599167,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"81d219894322ee42ba838a821af6fa6c03cee81f79a7cde5eec1ccb3df6b5414\",\n    \"legerId\":48,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_039-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"\",\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": [\n            \"应用ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773689681,\n    \"success\": false\n}]",
+      "uid" : "81a5f4fb2d6fd36c",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020651282,
+        "stop" : 1627020651974,
+        "duration" : 692
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_039'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": [\n            \"应用ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773689681,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"\",\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_040-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"clusterId\": 60\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": [\n            \"应用ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773743616,\n    \"success\": false\n}]",
+      "uid" : "44a8e4198c4ae2d5",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020652006,
+        "stop" : 1627020652705,
+        "duration" : 699
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_040'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"appId\": [\n            \"应用ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773743616,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"d7a971fd72ad6d5d5950158c362ae97398528808df7e827ea50ea797fbd23e55\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"clusterId\": 60\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_041-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":\"\"\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": [\n            \"网络ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773841145,\n    \"success\": false\n}]",
+      "uid" : "d8e57e8f2ddc02e6",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020652746,
+        "stop" : 1627020653456,
+        "duration" : 710
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_041'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": [\n            \"网络ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773841145,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\":\"\"\n}'" ]
+    }, {
+      "name" : "test_data_check_error[SJHY_042-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\"\n}-{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": [\n            \"网络ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773897445,\n    \"success\": false\n}]",
+      "uid" : "e9515b0f9bd894d2",
+      "parentUid" : "7bc0897bd50c8402ed7333e2c484fd38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627020653485,
+        "stop" : 1627020654195,
+        "duration" : 710
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'SJHY_042'", "'{\n    \"code\": 901,\n    \"msg\": \"参数错误\",\n    \"data\": {\n        \"clusterId\": [\n            \"网络ID不能为空\"\n        ]\n    },\n    \"path\": \"/rest/data/check\",\n    \"timestamp\": 1626773897445,\n    \"success\": false\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\",\"birthday\":\"2000-01-02\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"fe70fd95f82256444d8c2c8ee5d815fe586057285efacb2038ef5f49d22e8a19\",\n    \"legerId\":48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\"\n}'" ]
+    } ],
+    "uid" : "7bc0897bd50c8402ed7333e2c484fd38"
+  } ]
+}

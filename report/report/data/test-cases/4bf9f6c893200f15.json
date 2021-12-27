@@ -1,0 +1,134 @@
+{
+  "uid" : "4bf9f6c893200f15",
+  "name" : "test_data_check_right[SJHY_008-{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}-{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": false\n    },\n    \"timestamp\": 1626767158813,\n    \"success\": true\n}]",
+  "fullName" : "testcase.test_openApi.TestOpenAPI#test_data_check_right",
+  "historyId" : "0e84605452cad39f01e82e43860f8cc5",
+  "time" : {
+    "start" : 1627020629114,
+    "stop" : 1627020629094,
+    "duration" : -20
+  },
+  "status" : "failed",
+  "statusMessage" : "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_openApi.py:128: AssumptionFailure\n>>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nAssertionError: assert False\n\ntest_openApi.py:129: AssumptionFailure\n>>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nAssertionError: assert False\n\ntest_openApi.py:130: AssumptionFailure\n>>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nAssertionError: assert False",
+  "statusTrace" : "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               3 Failed Assumptions:\nE               \nE               test_openApi.py:128: AssumptionFailure\nE               >>\tpytest.assume(res[\"code\"] == expData[\"code\"])  # int\nE               AssertionError: assert False\nE               \nE               test_openApi.py:129: AssumptionFailure\nE               >>\tpytest.assume(res[\"msg\"] == expData[\"msg\"])  # str\nE               AssertionError: assert False\nE               \nE               test_openApi.py:130: AssumptionFailure\nE               >>\tpytest.assume(res[\"success\"] == expData[\"success\"])  # bool\nE               AssertionError: assert False\n\n..\\venv\\lib\\site-packages\\six.py:718: FailedAssumption",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestOpenAPI",
+    "time" : {
+      "start" : 1627020572791,
+      "stop" : 1627020572791,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_method_fixture_TestOpenAPI",
+    "time" : {
+      "start" : 1627020629094,
+      "stop" : 1627020629114,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestOpenAPI::0",
+    "time" : {
+      "start" : 1627020654197,
+      "stop" : 1627020654197,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "xunit_setup_method_fixture_TestOpenAPI::0",
+    "time" : {
+      "start" : 1627020629778,
+      "stop" : 1627020629778,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "数据核验-正常流"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_openApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOpenAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5UFTAI3"
+  }, {
+    "name" : "thread",
+    "value" : "14072-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_openApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseNum",
+    "value" : "'SJHY_008'"
+  }, {
+    "name" : "expData",
+    "value" : "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": false\n    },\n    \"timestamp\": 1626767158813,\n    \"success\": true\n}'"
+  }, {
+    "name" : "inData",
+    "value" : "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4bf9f6c893200f15.json",
+  "parameterValues" : [ "'SJHY_008'", "'{\n    \"code\": 200,\n    \"msg\": \"成功\",\n    \"data\": {\n        \"data\": false\n    },\n    \"timestamp\": 1626767158813,\n    \"success\": true\n}'", "'{ \"data\":{\"idcardno\":\"110105200001029753\",\"sex\":\"男\"},\n    \"nonce\": \"one3874\",\n    \"timestamp\": 1941761698000,\n    \"sign\": \"0ad6e37847bc8854c06ec7678844d1463b58f2a77cd5d5c102760138ea20b379\",\n    \"legerId\": 48,\n    \"chainId\":49,\n    \"appId\": \"rRHm0G\",\n    \"clusterId\": 60\n}'" ]
+}
